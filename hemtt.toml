@@ -1,0 +1,9 @@
+name = "SOG: Prairie Fire - Custom Faction Example"
+prefix = "vn_cfe"
+author = "Savage Games Design"
+files = [
+    "LICENSE",
+    "README.md",
+]
+
+exclude = ["*.psd", "*.png", "*.tga", "*.hpp"]
