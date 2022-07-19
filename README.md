@@ -20,3 +20,8 @@ _Replace `hemtt` with `hemtt.exe` on Windows._
 
 **Windows Helpers:**
 - Double-click `build.bat` to create a development build
+
+
+## Retexture templates
+
+Retexture templates can be found [here](https://community.sogpf.com/d/537-prairie-fire-texture-templates).
