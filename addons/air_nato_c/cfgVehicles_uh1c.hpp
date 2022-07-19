@@ -45,7 +45,6 @@ class vn_cfe_b_air_uh1c_nato_hog: vn_b_air_uh1c_01_01 {
 class vn_air_uh1c_02_base: vn_air_uh1c_01_base {
     class Turrets;
 };
-
 class vn_b_air_uh1c_02_01: vn_air_uh1c_02_base {
     class Turrets: Turrets {
         class CargoTurret_01; // right passenger
@@ -87,7 +86,6 @@ class vn_cfe_b_air_uh1c_nato_gunship: vn_b_air_uh1c_02_01 {
 class vn_air_uh1c_03_base: vn_air_uh1c_01_base {
     class Turrets;
 };
-
 class vn_b_air_uh1c_03_01: vn_air_uh1c_03_base {
     class Turrets: Turrets {
         class CargoTurret_01; // right passenger
