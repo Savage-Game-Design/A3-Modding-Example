@@ -17,4 +17,12 @@ class CfgFactionClasses {
         priority = 1;
         side = 1;
     };
+    class vn_cfe_O_CSAT {
+        displayName = "CSAT (SOG: Prairie Fire)";
+
+        flag = "\vn\objects_f_vietnam\flags\vn_flag_01_pavn_co.paa";
+        icon = "\vn\objects_f_vietnam\markers\vn_mrk_pavn_ca.paa";
+        priority = 1;
+        side = 0;
+    };
 };
