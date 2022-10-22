@@ -26,3 +26,18 @@ class CfgFactionClasses {
         side = 0;
     };
 };
+
+class vn_attribute_flag {
+    class Values {
+        class csat {
+            name = "CSAT";
+            picture = "\a3\data_f\flags\flag_csat_co.paa";
+            value = "\a3\data_f\flags\flag_csat_co.paa";
+        };
+        class nato {
+            name = "NATO";
+            picture = "\a3\data_f\flags\flag_nato_co.paa";
+            value = "\a3\data_f\flags\flag_nato_co.paa";
+        };
+    };
+};
