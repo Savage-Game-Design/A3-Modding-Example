@@ -1,0 +1,4565 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=704;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
+	};
+	class LayerIndexProvider
+	{
+		nextID=113;
+	};
+	class Camera
+	{
+		pos[]={11254.179,95.17028,14269.201};
+		dir[]={-1.2363449e-007,-0.70710683,0.70710683};
+		up[]={-1.2363449e-007,0.70710671,0.70710683};
+		aside[]={1,0,1.7484557e-007};
+	};
+};
+binarizationWanted=0;
+sourceName="map_borders";
+addons[]=
+{
+	"A3_Ui_F",
+	"characters_f_vietnam_c",
+	"objects_f_vietnam_c"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=3;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="characters_f_vietnam_c";
+			name="characters_f_vietnam_c";
+			author="Savage Game Design";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="objects_f_vietnam_c";
+			name="objects_f_vietnam_c";
+			author="Savage Game Design";
+			url="https://www.arma3.com";
+		};
+	};
+};
+dlcs[]=
+{
+	"VN"
+};
+randomSeed=11923298;
+class ScenarioData
+{
+	author="veteran29";
+	overviewText="Demo mission showing usage of markers for polyline and map shading.";
+};
+class Mission
+{
+	appId=1227700;
+	class Intel
+	{
+		briefingName="Map country borders";
+		timeOfChanges=1800.0002;
+		startWeather=0.2;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=1968;
+		month=7;
+		day=22;
+		hour=5;
+		minute=55;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=6;
+		class Item0
+		{
+			dataType="Layer";
+			name="border_areas";
+			state=1;
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Layer";
+					name="pavn_area";
+					state=1;
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Layer";
+							name="border_pavn_1";
+							class Entities
+							{
+								items=84;
+								class Item0
+								{
+									dataType="Marker";
+									position[]={5602.7451,0,15273.519};
+									name="border_pavn_1_0";
+									type="Empty";
+									id=1;
+									atlOffset=7.0457006;
+								};
+								class Item1
+								{
+									dataType="Marker";
+									position[]={5853.1851,1.7415767,15338.622};
+									name="border_pavn_1_1";
+									type="Empty";
+									id=9;
+									atlOffset=8.3509369;
+								};
+								class Item2
+								{
+									dataType="Marker";
+									position[]={6309.2495,-9.4878178,15335.55};
+									name="border_pavn_1_2";
+									type="Empty";
+									id=10;
+									atlOffset=3.4957666;
+								};
+								class Item3
+								{
+									dataType="Marker";
+									position[]={6553.8188,-1.8712687,15300.22};
+									name="border_pavn_1_3";
+									type="Empty";
+									id=11;
+									atlOffset=7.0457006;
+								};
+								class Item4
+								{
+									dataType="Marker";
+									position[]={6733.3994,0.039208889,15158.511};
+									name="border_pavn_1_4";
+									type="Empty";
+									id=12;
+									atlOffset=7.0457006;
+								};
+								class Item5
+								{
+									dataType="Marker";
+									position[]={7089.8701,-0.0088763237,15285.626};
+									name="border_pavn_1_5";
+									type="Empty";
+									id=13;
+									atlOffset=7.0457006;
+								};
+								class Item6
+								{
+									dataType="Marker";
+									position[]={7377.5073,0.74613523,15323.262};
+									name="border_pavn_1_6";
+									type="Empty";
+									id=14;
+									atlOffset=7.0457006;
+								};
+								class Item7
+								{
+									dataType="Marker";
+									position[]={7574.7773,0.65347624,15304.826};
+									name="border_pavn_1_7";
+									type="Empty";
+									id=15;
+									atlOffset=7.0457006;
+								};
+								class Item8
+								{
+									dataType="Marker";
+									position[]={7737.437,0.21029997,15393.54};
+									name="border_pavn_1_8";
+									type="Empty";
+									id=16;
+									atlOffset=7.0457006;
+								};
+								class Item9
+								{
+									dataType="Marker";
+									position[]={7983.9282,-1.9173584,15274.874};
+									name="border_pavn_1_9";
+									type="Empty";
+									id=17;
+									atlOffset=7.5919333;
+								};
+								class Item10
+								{
+									dataType="Marker";
+									position[]={8063.1455,-1.7287307,15325.184};
+									name="border_pavn_1_10";
+									type="Empty";
+									id=18;
+									atlOffset=7.0457006;
+								};
+								class Item11
+								{
+									dataType="Marker";
+									position[]={8161.5889,-0.68392849,15415.816};
+									name="border_pavn_1_11";
+									type="Empty";
+									id=19;
+									atlOffset=7.0457006;
+								};
+								class Item12
+								{
+									dataType="Marker";
+									position[]={8273.875,-0.13663101,15372.804};
+									name="border_pavn_1_12";
+									type="Empty";
+									id=20;
+									atlOffset=7.0457006;
+								};
+								class Item13
+								{
+									dataType="Marker";
+									position[]={8471.6201,-1.1917062,15056.008};
+									name="border_pavn_1_13";
+									type="Empty";
+									id=21;
+									atlOffset=7.0457006;
+								};
+								class Item14
+								{
+									dataType="Marker";
+									position[]={8647.4912,-0.18700933,14954.845};
+									name="border_pavn_1_14";
+									type="Empty";
+									id=22;
+									atlOffset=7.0457006;
+								};
+								class Item15
+								{
+									dataType="Marker";
+									position[]={8896.6914,1.7816219,14944.295};
+									name="border_pavn_1_15";
+									type="Empty";
+									id=23;
+									atlOffset=7.0457006;
+								};
+								class Item16
+								{
+									dataType="Marker";
+									position[]={9304.9814,-0.26550341,15046.076};
+									name="border_pavn_1_16";
+									type="Empty";
+									id=24;
+									atlOffset=7.0457006;
+								};
+								class Item17
+								{
+									dataType="Marker";
+									position[]={9461.5859,0.10381317,15070.903};
+									name="border_pavn_1_17";
+									type="Empty";
+									id=25;
+									atlOffset=7.0457006;
+								};
+								class Item18
+								{
+									dataType="Marker";
+									position[]={9543.6172,-0.27761698,15031.803};
+									name="border_pavn_1_18";
+									type="Empty";
+									id=26;
+									atlOffset=7.0457006;
+								};
+								class Item19
+								{
+									dataType="Marker";
+									position[]={9719.4863,0.97977495,14796.584};
+									name="border_pavn_1_19";
+									type="Empty";
+									id=27;
+									atlOffset=7.0457006;
+								};
+								class Item20
+								{
+									dataType="Marker";
+									position[]={9879.1992,-0.69715071,14693.56};
+									name="border_pavn_1_20";
+									type="Empty";
+									id=28;
+									atlOffset=7.0457006;
+								};
+								class Item21
+								{
+									dataType="Marker";
+									position[]={9900.3281,-0.12162352,14573.159};
+									name="border_pavn_1_21";
+									type="Empty";
+									id=29;
+									atlOffset=7.0457006;
+								};
+								class Item22
+								{
+									dataType="Marker";
+									position[]={9980.4951,-1.1081986,14444.688};
+									name="border_pavn_1_22";
+									type="Empty";
+									id=30;
+									atlOffset=7.0456414;
+								};
+								class Item23
+								{
+									dataType="Marker";
+									position[]={10039.285,-0.066060543,14367.41};
+									name="border_pavn_1_23";
+									type="Empty";
+									id=31;
+									atlOffset=7.0457006;
+								};
+								class Item24
+								{
+									dataType="Marker";
+									position[]={10034.324,0.36859846,14248.514};
+									name="border_pavn_1_24";
+									type="Empty";
+									id=32;
+									atlOffset=7.0457006;
+								};
+								class Item25
+								{
+									dataType="Marker";
+									position[]={10141.252,-1.2425056,14208.33};
+									name="border_pavn_1_25";
+									type="Empty";
+									id=33;
+									atlOffset=7.0457006;
+								};
+								class Item26
+								{
+									dataType="Marker";
+									position[]={10267.472,-9.9604645,14184.66};
+									name="border_pavn_1_26";
+									type="Empty";
+									id=34;
+									atlOffset=7.0457001;
+								};
+								class Item27
+								{
+									dataType="Marker";
+									position[]={10378.258,-5.5749173,14020.627};
+									name="border_pavn_1_27";
+									type="Empty";
+									id=35;
+									atlOffset=7.0457006;
+								};
+								class Item28
+								{
+									dataType="Marker";
+									position[]={10383.77,-7.9440894,13894.574};
+									name="border_pavn_1_28";
+									type="Empty";
+									id=36;
+									atlOffset=7.0457006;
+								};
+								class Item29
+								{
+									dataType="Marker";
+									position[]={10284.008,-5.4504514,13776.229};
+									name="border_pavn_1_29";
+									type="Empty";
+									id=37;
+									atlOffset=7.0457006;
+								};
+								class Item30
+								{
+									dataType="Marker";
+									position[]={10328.652,-8.5068111,13671.642};
+									name="border_pavn_1_30";
+									type="Empty";
+									id=38;
+									atlOffset=7.045701;
+								};
+								class Item31
+								{
+									dataType="Marker";
+									position[]={10369.989,-6.4088349,13554.396};
+									name="border_pavn_1_31";
+									type="Empty";
+									id=39;
+									atlOffset=7.0457711;
+								};
+								class Item32
+								{
+									dataType="Marker";
+									position[]={10276.057,-4.6814432,13470.107};
+									name="border_pavn_1_32";
+									type="Empty";
+									id=40;
+									atlOffset=9.3459339;
+								};
+								class Item33
+								{
+									dataType="Marker";
+									position[]={10261.959,-1.5365529,13408.526};
+									name="border_pavn_1_33";
+									type="Empty";
+									id=41;
+									atlOffset=7.0457006;
+								};
+								class Item34
+								{
+									dataType="Marker";
+									position[]={10315.975,-5.4293141,13377.15};
+									name="border_pavn_1_34";
+									type="Empty";
+									id=42;
+									atlOffset=7.0457006;
+								};
+								class Item35
+								{
+									dataType="Marker";
+									position[]={10409.674,-3.4909644,13340.271};
+									name="border_pavn_1_35";
+									type="Empty";
+									id=43;
+									atlOffset=7.0457006;
+								};
+								class Item36
+								{
+									dataType="Marker";
+									position[]={10487.389,-0.066022873,13225.227};
+									name="border_pavn_1_36";
+									type="Empty";
+									id=44;
+									atlOffset=7.0457006;
+								};
+								class Item37
+								{
+									dataType="Marker";
+									position[]={10575.553,95.49305,12974.677};
+									name="border_pavn_1_37";
+									type="Empty";
+									id=45;
+									atlOffset=7.0457001;
+								};
+								class Item38
+								{
+									dataType="Marker";
+									position[]={11018.404,164.26666,12897.92};
+									name="border_pavn_1_38";
+									type="Empty";
+									id=46;
+									atlOffset=7.0457001;
+								};
+								class Item39
+								{
+									dataType="Marker";
+									position[]={11307.538,194.0544,12716.992};
+									name="border_pavn_1_39";
+									type="Empty";
+									id=47;
+									atlOffset=7.0457001;
+								};
+								class Item40
+								{
+									dataType="Marker";
+									position[]={11545.434,183.8243,12419.102};
+									name="border_pavn_1_40";
+									type="Empty";
+									id=48;
+									atlOffset=7.0457001;
+								};
+								class Item41
+								{
+									dataType="Marker";
+									position[]={11751.99,127.2929,12334.225};
+									name="border_pavn_1_41";
+									type="Empty";
+									id=49;
+									atlOffset=7.0457001;
+								};
+								class Item42
+								{
+									dataType="Marker";
+									position[]={12060.957,97.452766,12207.996};
+									name="border_pavn_1_42";
+									type="Empty";
+									id=50;
+									atlOffset=7.0457001;
+								};
+								class Item43
+								{
+									dataType="Marker";
+									position[]={12090.321,181.22816,12043.516};
+									name="border_pavn_1_43";
+									type="Empty";
+									id=51;
+									atlOffset=7.0457001;
+								};
+								class Item44
+								{
+									dataType="Marker";
+									position[]={12396.737,248.84029,11988.689};
+									name="border_pavn_1_44";
+									type="Empty";
+									id=52;
+									atlOffset=7.0457001;
+								};
+								class Item45
+								{
+									dataType="Marker";
+									position[]={12833.377,261.67932,11958.088};
+									name="border_pavn_1_45";
+									type="Empty";
+									id=53;
+									atlOffset=7.0457001;
+								};
+								class Item46
+								{
+									dataType="Marker";
+									position[]={13148.726,231.99672,11945.337};
+									name="border_pavn_1_46";
+									type="Empty";
+									id=54;
+									atlOffset=7.0457001;
+								};
+								class Item47
+								{
+									dataType="Marker";
+									position[]={13298.102,220.77937,11831.86};
+									name="border_pavn_1_47";
+									type="Empty";
+									id=56;
+									atlOffset=0.65612793;
+								};
+								class Item48
+								{
+									dataType="Marker";
+									position[]={13548.341,183.41917,11659.729};
+									name="border_pavn_1_48";
+									type="Empty";
+									id=57;
+									atlOffset=7.0457001;
+								};
+								class Item49
+								{
+									dataType="Marker";
+									position[]={13596.856,173.65169,11536.05};
+									name="border_pavn_1_49";
+									type="Empty";
+									id=58;
+									atlOffset=7.0457001;
+								};
+								class Item50
+								{
+									dataType="Marker";
+									position[]={13672.183,179.24251,11507.998};
+									name="border_pavn_1_50";
+									type="Empty";
+									id=59;
+									atlOffset=7.0457001;
+								};
+								class Item51
+								{
+									dataType="Marker";
+									position[]={13744.956,218.1091,11557.725};
+									name="border_pavn_1_51";
+									type="Empty";
+									id=60;
+									atlOffset=7.0457001;
+								};
+								class Item52
+								{
+									dataType="Marker";
+									position[]={13828.88,220.98866,11637.288};
+									name="border_pavn_1_52";
+									type="Empty";
+									id=61;
+									atlOffset=2.125061;
+								};
+								class Item53
+								{
+									dataType="Marker";
+									position[]={14106.225,171.69693,11549.501};
+									name="border_pavn_1_53";
+									type="Empty";
+									id=62;
+									atlOffset=2.125061;
+								};
+								class Item54
+								{
+									dataType="Marker";
+									position[]={14322.159,117.18301,11507.467};
+									name="border_pavn_1_54";
+									type="Empty";
+									id=63;
+									atlOffset=2.125061;
+								};
+								class Item55
+								{
+									dataType="Marker";
+									position[]={14536.266,83.8601,11533.053};
+									name="border_pavn_1_55";
+									type="Empty";
+									id=64;
+									atlOffset=2.125061;
+								};
+								class Item56
+								{
+									dataType="Marker";
+									position[]={14750.371,98.260155,11681.084};
+									name="border_pavn_1_56";
+									type="Empty";
+									id=65;
+									atlOffset=22.201775;
+								};
+								class Item57
+								{
+									dataType="Marker";
+									position[]={14935.197,104.66146,11812.668};
+									name="border_pavn_1_57";
+									type="Empty";
+									id=66;
+									atlOffset=27.014091;
+								};
+								class Item58
+								{
+									dataType="Marker";
+									position[]={15184.073,90.406662,11810.842};
+									name="border_pavn_1_58";
+									type="Empty";
+									id=67;
+									atlOffset=27.014095;
+								};
+								class Item59
+								{
+									dataType="Marker";
+									position[]={15266.422,32.595459,11898.564};
+									name="border_pavn_1_59";
+									type="Empty";
+									id=68;
+									atlOffset=27.014091;
+								};
+								class Item60
+								{
+									dataType="Marker";
+									position[]={15401.84,33.297676,12072.183};
+									name="border_pavn_1_60";
+									type="Empty";
+									id=69;
+									atlOffset=27.014091;
+								};
+								class Item61
+								{
+									dataType="Marker";
+									position[]={15467.719,31.924091,12163.56};
+									name="border_pavn_1_61";
+									type="Empty";
+									id=70;
+									atlOffset=27.014091;
+								};
+								class Item62
+								{
+									dataType="Marker";
+									position[]={15619.163,54.129517,12238.155};
+									name="border_pavn_1_62";
+									type="Empty";
+									id=71;
+									atlOffset=27.014421;
+								};
+								class Item63
+								{
+									dataType="Marker";
+									position[]={15824.115,77.894943,12258.786};
+									name="border_pavn_1_63";
+									type="Empty";
+									id=72;
+									atlOffset=26.419411;
+								};
+								class Item64
+								{
+									dataType="Marker";
+									position[]={16050.586,76.806076,12236.167};
+									name="border_pavn_1_64";
+									type="Empty";
+									id=73;
+									atlOffset=27.014091;
+								};
+								class Item65
+								{
+									dataType="Marker";
+									position[]={16488.807,68.447868,12259.914};
+									name="border_pavn_1_65";
+									type="Empty";
+									id=74;
+									atlOffset=27.014091;
+								};
+								class Item66
+								{
+									dataType="Marker";
+									position[]={16748.117,77.514008,12356.037};
+									name="border_pavn_1_66";
+									type="Empty";
+									id=75;
+									atlOffset=27.014095;
+								};
+								class Item67
+								{
+									dataType="Marker";
+									position[]={16967.664,26.033945,12577.587};
+									name="border_pavn_1_67";
+									type="Empty";
+									id=76;
+									atlOffset=27.014091;
+								};
+								class Item68
+								{
+									dataType="Marker";
+									position[]={17079.729,22.778305,12801.021};
+									name="border_pavn_1_68";
+									type="Empty";
+									id=77;
+									atlOffset=27.014072;
+								};
+								class Item69
+								{
+									dataType="Marker";
+									position[]={17258.006,15.321,12928.873};
+									name="border_pavn_1_69";
+									type="Empty";
+									id=78;
+									atlOffset=24.715878;
+								};
+								class Item70
+								{
+									dataType="Marker";
+									position[]={17422.404,11.014091,12983.977};
+									name="border_pavn_1_70";
+									type="Empty";
+									id=79;
+									atlOffset=27.014091;
+								};
+								class Item71
+								{
+									dataType="Marker";
+									position[]={17645.354,11.874091,13046.846};
+									name="border_pavn_1_71";
+									type="Empty";
+									id=80;
+									atlOffset=27.014091;
+								};
+								class Item72
+								{
+									dataType="Marker";
+									position[]={17978.469,6.5277672,12973.5};
+									name="border_pavn_1_72";
+									type="Empty";
+									id=81;
+									atlOffset=27.014091;
+								};
+								class Item73
+								{
+									dataType="Marker";
+									position[]={18072.895,-1.882021,12978.738};
+									name="border_pavn_1_73";
+									type="Empty";
+									id=82;
+									atlOffset=27.014091;
+								};
+								class Item74
+								{
+									dataType="Marker";
+									position[]={18162.074,-5.0330429,13083.518};
+									name="border_pavn_1_74";
+									type="Empty";
+									id=83;
+									atlOffset=27.014091;
+								};
+								class Item75
+								{
+									dataType="Marker";
+									position[]={18314.205,-10.049194,13395.236};
+									name="border_pavn_1_75";
+									type="Empty";
+									id=84;
+									atlOffset=27.014091;
+								};
+								class Item76
+								{
+									dataType="Marker";
+									position[]={18670.926,10.729401,13439.768};
+									name="border_pavn_1_76";
+									type="Empty";
+									id=85;
+									atlOffset=27.014091;
+								};
+								class Item77
+								{
+									dataType="Marker";
+									position[]={18833.549,11.594091,13298.315};
+									name="border_pavn_1_77";
+									type="Empty";
+									id=86;
+									atlOffset=27.014091;
+								};
+								class Item78
+								{
+									dataType="Marker";
+									position[]={19048.629,4.5298214,13230.21};
+									name="border_pavn_1_78";
+									type="Empty";
+									id=87;
+									atlOffset=27.014091;
+								};
+								class Item79
+								{
+									dataType="Marker";
+									position[]={19331.906,10.523272,13261.643};
+									name="border_pavn_1_79";
+									type="Empty";
+									id=88;
+									atlOffset=27.014091;
+								};
+								class Item80
+								{
+									dataType="Marker";
+									position[]={19515.512,11.124091,13424.052};
+									name="border_pavn_1_80";
+									type="Empty";
+									id=89;
+									atlOffset=27.014091;
+								};
+								class Item81
+								{
+									dataType="Marker";
+									position[]={19594.201,9.8757076,13748.867};
+									name="border_pavn_1_81";
+									type="Empty";
+									id=90;
+									atlOffset=27.014091;
+								};
+								class Item82
+								{
+									dataType="Marker";
+									position[]={20185.432,-6.1355133,14173.909};
+									name="border_pavn_1_82";
+									type="Empty";
+									id=91;
+									atlOffset=34.66893;
+								};
+								class Item83
+								{
+									dataType="Marker";
+									position[]={20640,-58.93,14887.023};
+									name="border_pavn_1_83";
+									type="Empty";
+									id=92;
+									atlOffset=37.400963;
+								};
+							};
+							id=0;
+							atlOffset=56.741325;
+						};
+						class Item1
+						{
+							dataType="Layer";
+							name="pavn_area_dmz";
+							class Entities
+							{
+								items=2;
+								class Item0
+								{
+									dataType="Layer";
+									name="border_pavn_2";
+									class Entities
+									{
+										items=30;
+										class Item0
+										{
+											dataType="Marker";
+											position[]={13148.726,231.99699,11945.337};
+											name="border_pavn_2_0";
+											type="Empty";
+											id=149;
+											atlOffset=7.0459747;
+										};
+										class Item1
+										{
+											dataType="Marker";
+											position[]={13422.651,159.36909,12070.282};
+											name="border_pavn_2_1";
+											type="Empty";
+											id=151;
+											atlOffset=5.7458496;
+										};
+										class Item2
+										{
+											dataType="Marker";
+											position[]={13517.241,160.01855,12063.284};
+											name="border_pavn_2_2";
+											type="Empty";
+											id=152;
+											atlOffset=7.0458984;
+										};
+										class Item3
+										{
+											dataType="Marker";
+											position[]={13564.888,172.16919,11995.404};
+											name="border_pavn_2_3";
+											type="Empty";
+											id=153;
+											atlOffset=6.8871155;
+										};
+										class Item4
+										{
+											dataType="Marker";
+											position[]={13587.312,175.62085,11854.056};
+											name="border_pavn_2_4";
+											type="Empty";
+											id=154;
+											atlOffset=7.04599;
+										};
+										class Item5
+										{
+											dataType="Marker";
+											position[]={13622.344,185.12242,11802.977};
+											name="border_pavn_2_5";
+											type="Empty";
+											id=155;
+											atlOffset=5.8770447;
+										};
+										class Item6
+										{
+											dataType="Marker";
+											position[]={13749.866,191.37976,11795.978};
+											name="border_pavn_2_6";
+											type="Empty";
+											id=156;
+											atlOffset=4.6795349;
+										};
+										class Item7
+										{
+											dataType="Marker";
+											position[]={13946.06,206.04532,11762.39};
+											name="border_pavn_2_7";
+											type="Empty";
+											id=157;
+											atlOffset=8.2108307;
+										};
+										class Item8
+										{
+											dataType="Marker";
+											position[]={14124.031,166.50537,11746.993};
+											name="border_pavn_2_8";
+											type="Empty";
+											id=158;
+											atlOffset=7.0458832;
+										};
+										class Item9
+										{
+											dataType="Marker";
+											position[]={14331.432,132.11328,11728.102};
+											name="border_pavn_2_9";
+											type="Empty";
+											id=159;
+											atlOffset=7.7177887;
+										};
+										class Item10
+										{
+											dataType="Marker";
+											position[]={14496.793,106.79504,11801.575};
+											name="border_pavn_2_10";
+											type="Empty";
+											id=160;
+											atlOffset=7.717247;
+										};
+										class Item11
+										{
+											dataType="Marker";
+											position[]={14652.199,91.014381,11935.239};
+											name="border_pavn_2_11";
+											type="Empty";
+											id=161;
+											atlOffset=14.509155;
+										};
+										class Item12
+										{
+											dataType="Marker";
+											position[]={14825.214,61.26844,12086.724};
+											name="border_pavn_2_12";
+											type="Empty";
+											id=162;
+											atlOffset=7.7177429;
+										};
+										class Item13
+										{
+											dataType="Marker";
+											position[]={14956.356,18.584904,12195.601};
+											name="border_pavn_2_13";
+											type="Empty";
+											id=163;
+											atlOffset=7.7177429;
+										};
+										class Item14
+										{
+											dataType="Marker";
+											position[]={15181.511,12.597742,12276.078};
+											name="border_pavn_2_14";
+											type="Empty";
+											id=164;
+											atlOffset=7.717742;
+										};
+										class Item15
+										{
+											dataType="Marker";
+											position[]={15274.578,4.7310228,12244.97};
+											name="border_pavn_2_15";
+											type="Empty";
+											id=167;
+											atlOffset=1.1099315;
+										};
+										class Item16
+										{
+											dataType="Marker";
+											position[]={15372.765,9.2396851,12249.937};
+											name="border_pavn_2_16";
+											type="Empty";
+											id=168;
+											atlOffset=7.7177587;
+										};
+										class Item17
+										{
+											dataType="Marker";
+											position[]={15461.014,25.496918,12313.24};
+											name="border_pavn_2_17";
+											type="Empty";
+											id=169;
+											atlOffset=2.4047012;
+										};
+										class Item18
+										{
+											dataType="Marker";
+											position[]={15535.587,45.125614,12379.647};
+											name="border_pavn_2_18";
+											type="Empty";
+											id=170;
+											atlOffset=1.4160728;
+										};
+										class Item19
+										{
+											dataType="Marker";
+											position[]={15748.74,53.461109,12431.781};
+											name="border_pavn_2_19";
+											type="Empty";
+											id=171;
+											atlOffset=3.5788231;
+										};
+										class Item20
+										{
+											dataType="Marker";
+											position[]={15974.327,55.329128,12518.67};
+											name="border_pavn_2_20";
+											type="Empty";
+											id=172;
+											atlOffset=7.7177429;
+										};
+										class Item21
+										{
+											dataType="Marker";
+											position[]={16164.488,37.147457,12568.94};
+											name="border_pavn_2_21";
+											type="Empty";
+											id=173;
+											atlOffset=7.717741;
+										};
+										class Item22
+										{
+											dataType="Marker";
+											position[]={16350.301,45.579281,12544.736};
+											name="border_pavn_2_22";
+											type="Empty";
+											id=174;
+											atlOffset=7.7177429;
+										};
+										class Item23
+										{
+											dataType="Marker";
+											position[]={16485.154,32.215931,12520.531};
+											name="border_pavn_2_23";
+											type="Empty";
+											id=175;
+											atlOffset=7.7177429;
+										};
+										class Item24
+										{
+											dataType="Marker";
+											position[]={16674.695,12.59604,12563.354};
+											name="border_pavn_2_24";
+											type="Empty";
+											id=176;
+											atlOffset=7.7185154;
+										};
+										class Item25
+										{
+											dataType="Marker";
+											position[]={16838.137,7.7177434,12679.414};
+											name="border_pavn_2_25";
+											type="Empty";
+											id=177;
+											atlOffset=8.5085001;
+										};
+										class Item26
+										{
+											dataType="Marker";
+											position[]={16965.535,14.602972,12910.288};
+											name="border_pavn_2_26";
+											type="Empty";
+											id=178;
+											atlOffset=7.7177424;
+										};
+										class Item27
+										{
+											dataType="Marker";
+											position[]={17038.707,1.4276123,12962.306};
+											name="border_pavn_2_27";
+											type="Empty";
+											id=179;
+											atlOffset=7.343399;
+										};
+										class Item28
+										{
+											dataType="Marker";
+											position[]={17146.088,-4.3588867,12992.459};
+											name="border_pavn_2_28";
+											type="Empty";
+											id=180;
+											atlOffset=19.256737;
+										};
+										class Item29
+										{
+											dataType="Marker";
+											position[]={17258.006,0.84753418,12928.873};
+											name="border_pavn_2_29";
+											type="Empty";
+											id=181;
+											atlOffset=10.242413;
+										};
+									};
+									id=148;
+									atlOffset=-93.454735;
+								};
+								class Item1
+								{
+									dataType="Layer";
+									name="border_pavn_3";
+									class Entities
+									{
+										items=22;
+										class Item0
+										{
+											dataType="Marker";
+											position[]={13298.102,220.77901,11831.86};
+											name="border_pavn_3_85";
+											type="Empty";
+											id=186;
+											atlOffset=0.65576172;
+										};
+										class Item1
+										{
+											dataType="Marker";
+											position[]={13548.34,183.41901,11659.729};
+											name="border_pavn_3_86";
+											type="Empty";
+											id=187;
+											atlOffset=7.0453339;
+										};
+										class Item2
+										{
+											dataType="Marker";
+											position[]={13596.856,173.65199,11536.05};
+											name="border_pavn_3_87";
+											type="Empty";
+											id=188;
+											atlOffset=7.0460052;
+										};
+										class Item3
+										{
+											dataType="Marker";
+											position[]={13672.183,179.243,11507.998};
+											name="border_pavn_3_88";
+											type="Empty";
+											id=189;
+											atlOffset=7.0461884;
+										};
+										class Item4
+										{
+											dataType="Marker";
+											position[]={13744.956,218.10899,11557.725};
+											name="border_pavn_3_89";
+											type="Empty";
+											id=190;
+											atlOffset=7.0455933;
+										};
+										class Item5
+										{
+											dataType="Marker";
+											position[]={13828.88,220.989,11637.288};
+											name="border_pavn_3_90";
+											type="Empty";
+											id=191;
+											atlOffset=2.1253967;
+										};
+										class Item6
+										{
+											dataType="Marker";
+											position[]={14106.225,171.69701,11549.501};
+											name="border_pavn_3_91";
+											type="Empty";
+											id=192;
+											atlOffset=2.1251373;
+										};
+										class Item7
+										{
+											dataType="Marker";
+											position[]={14322.16,117.183,11507.467};
+											name="border_pavn_3_92";
+											type="Empty";
+											id=193;
+											atlOffset=2.125267;
+										};
+										class Item8
+										{
+											dataType="Marker";
+											position[]={14536.266,83.860001,11533.053};
+											name="border_pavn_3_93";
+											type="Empty";
+											id=194;
+											atlOffset=2.1249619;
+										};
+										class Item9
+										{
+											dataType="Marker";
+											position[]={14750.371,98.260002,11681.084};
+											name="border_pavn_3_94";
+											type="Empty";
+											id=195;
+											atlOffset=22.201622;
+										};
+										class Item10
+										{
+											dataType="Marker";
+											position[]={14935.197,104.661,11812.668};
+											name="border_pavn_3_95";
+											type="Empty";
+											id=196;
+											atlOffset=27.013634;
+										};
+										class Item11
+										{
+											dataType="Marker";
+											position[]={15184.073,90.406998,11810.842};
+											name="border_pavn_3_96";
+											type="Empty";
+											id=197;
+											atlOffset=27.014431;
+										};
+										class Item12
+										{
+											dataType="Marker";
+											position[]={15266.422,32.595001,11898.564};
+											name="border_pavn_3_97";
+											type="Empty";
+											id=198;
+											atlOffset=27.013634;
+										};
+										class Item13
+										{
+											dataType="Marker";
+											position[]={15401.84,33.298,12072.183};
+											name="border_pavn_3_98";
+											type="Empty";
+											id=199;
+											atlOffset=27.014416;
+										};
+										class Item14
+										{
+											dataType="Marker";
+											position[]={15467.719,31.924,12163.56};
+											name="border_pavn_3_99";
+											type="Empty";
+											id=200;
+											atlOffset=27.014;
+										};
+										class Item15
+										{
+											dataType="Marker";
+											position[]={15619.163,54.130001,12238.155};
+											name="border_pavn_3_100";
+											type="Empty";
+											id=201;
+											atlOffset=27.014906;
+										};
+										class Item16
+										{
+											dataType="Marker";
+											position[]={15824.115,77.894997,12258.786};
+											name="border_pavn_3_101";
+											type="Empty";
+											id=202;
+											atlOffset=26.419464;
+										};
+										class Item17
+										{
+											dataType="Marker";
+											position[]={16050.586,76.806,12236.167};
+											name="border_pavn_3_102";
+											type="Empty";
+											id=203;
+											atlOffset=27.014015;
+										};
+										class Item18
+										{
+											dataType="Marker";
+											position[]={16488.807,68.447998,12259.914};
+											name="border_pavn_3_103";
+											type="Empty";
+											id=204;
+											atlOffset=27.014221;
+										};
+										class Item19
+										{
+											dataType="Marker";
+											position[]={16748.117,77.514,12356.037};
+											name="border_pavn_3_104";
+											type="Empty";
+											id=205;
+											atlOffset=27.014088;
+										};
+										class Item20
+										{
+											dataType="Marker";
+											position[]={16967.664,26.034,12577.587};
+											name="border_pavn_3_105";
+											type="Empty";
+											id=206;
+											atlOffset=27.014147;
+										};
+										class Item21
+										{
+											dataType="Marker";
+											position[]={17079.729,22.778,12801.021};
+											name="border_pavn_3_106";
+											type="Empty";
+											id=207;
+											atlOffset=27.013767;
+										};
+									};
+									id=184;
+									atlOffset=44.955597;
+								};
+							};
+							id=694;
+							atlOffset=34.603363;
+						};
+					};
+					id=96;
+					atlOffset=14.121208;
+				};
+				class Item1
+				{
+					dataType="Layer";
+					name="lao_area";
+					state=1;
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Layer";
+							name="border_lao_1";
+							class Entities
+							{
+								items=42;
+								class Item0
+								{
+									dataType="Marker";
+									position[]={2527.6809,224.55299,20480};
+									name="border_lao_1_0";
+									type="Empty";
+									id=103;
+									atlOffset=-0.00038146973;
+								};
+								class Item1
+								{
+									dataType="Marker";
+									position[]={2584.3877,199.93352,20243.822};
+									name="border_lao_1_1";
+									type="Empty";
+									id=104;
+									atlOffset=1.5258789e-005;
+								};
+								class Item2
+								{
+									dataType="Marker";
+									position[]={3370.4844,165.23798,18930.967};
+									name="border_lao_1_10";
+									type="Empty";
+									id=113;
+									atlOffset=1.5258789e-005;
+								};
+								class Item3
+								{
+									dataType="Marker";
+									position[]={3494.7244,136.5722,18749.455};
+									name="border_lao_1_11";
+									type="Empty";
+									id=114;
+									atlOffset=1.5258789e-005;
+								};
+								class Item4
+								{
+									dataType="Marker";
+									position[]={3578.2402,127.14415,18566.547};
+									name="border_lao_1_12";
+									type="Empty";
+									id=115;
+									atlOffset=1.5258789e-005;
+								};
+								class Item5
+								{
+									dataType="Marker";
+									position[]={3604.614,134.19897,18427.537};
+									name="border_lao_1_13";
+									type="Empty";
+									id=116;
+									atlOffset=1.5258789e-005;
+								};
+								class Item6
+								{
+									dataType="Marker";
+									position[]={3563.5884,141.11919,18262.188};
+									name="border_lao_1_14";
+									type="Empty";
+									id=117;
+									atlOffset=1.5258789e-005;
+								};
+								class Item7
+								{
+									dataType="Marker";
+									position[]={3465.4202,142.97823,18137.811};
+									name="border_lao_1_15";
+									type="Empty";
+									id=118;
+									atlOffset=1.5258789e-005;
+								};
+								class Item8
+								{
+									dataType="Marker";
+									position[]={3428.7903,139.80211,18057.332};
+									name="border_lao_1_16";
+									type="Empty";
+									id=119;
+									atlOffset=1.5258789e-005;
+								};
+								class Item9
+								{
+									dataType="Marker";
+									position[]={3472.7466,144.6286,17959.293};
+									name="border_lao_1_17";
+									type="Empty";
+									id=120;
+									atlOffset=1.5258789e-005;
+								};
+								class Item10
+								{
+									dataType="Marker";
+									position[]={3565.0537,146.96103,17867.107};
+									name="border_lao_1_18";
+									type="Empty";
+									id=121;
+									atlOffset=1.5258789e-005;
+								};
+								class Item11
+								{
+									dataType="Marker";
+									position[]={3682.2695,137.20985,17779.311};
+									name="border_lao_1_19";
+									type="Empty";
+									id=122;
+									atlOffset=1.5258789e-005;
+								};
+								class Item12
+								{
+									dataType="Marker";
+									position[]={2682.5217,128.50899,20035.561};
+									name="border_lao_1_2";
+									type="Empty";
+									id=105;
+								};
+								class Item13
+								{
+									dataType="Marker";
+									position[]={3724.7598,144.74591,17628.594};
+									name="border_lao_1_20";
+									type="Empty";
+									id=123;
+									atlOffset=1.5258789e-005;
+								};
+								class Item14
+								{
+									dataType="Marker";
+									position[]={3783.3682,144.60873,17469.098};
+									name="border_lao_1_21";
+									type="Empty";
+									id=124;
+									atlOffset=1.5258789e-005;
+								};
+								class Item15
+								{
+									dataType="Marker";
+									position[]={3858.4731,150.81313,17318.225};
+									name="border_lao_1_22";
+									type="Empty";
+									id=125;
+									atlOffset=1.5258789e-005;
+								};
+								class Item16
+								{
+									dataType="Marker";
+									position[]={3961.3784,145.95697,17171.41};
+									name="border_lao_1_23";
+									type="Empty";
+									id=126;
+									atlOffset=1.5258789e-005;
+								};
+								class Item17
+								{
+									dataType="Marker";
+									position[]={4093.6851,162.05556,17003.625};
+									name="border_lao_1_24";
+									type="Empty";
+									id=127;
+									atlOffset=1.5258789e-005;
+								};
+								class Item18
+								{
+									dataType="Marker";
+									position[]={4291.0957,156.85048,16884.076};
+									name="border_lao_1_25";
+									type="Empty";
+									id=128;
+									atlOffset=1.5258789e-005;
+								};
+								class Item19
+								{
+									dataType="Marker";
+									position[]={4459.1035,172.32196,16814.863};
+									name="border_lao_1_26";
+									type="Empty";
+									id=129;
+									atlOffset=1.5258789e-005;
+								};
+								class Item20
+								{
+									dataType="Marker";
+									position[]={4608.2119,160.15314,16787.598};
+									name="border_lao_1_27";
+									type="Empty";
+									id=130;
+									atlOffset=1.5258789e-005;
+								};
+								class Item21
+								{
+									dataType="Marker";
+									position[]={4685.916,153.10324,16730.969};
+									name="border_lao_1_28";
+									type="Empty";
+									id=131;
+									atlOffset=1.5258789e-005;
+								};
+								class Item22
+								{
+									dataType="Marker";
+									position[]={4815.4609,139.32256,16596.064};
+									name="border_lao_1_29";
+									type="Empty";
+									id=132;
+								};
+								class Item23
+								{
+									dataType="Marker";
+									position[]={2735.6777,189.94373,19795.654};
+									name="border_lao_1_3";
+									type="Empty";
+									id=106;
+									atlOffset=1.5258789e-005;
+								};
+								class Item24
+								{
+									dataType="Marker";
+									position[]={4977.4009,160.60062,16408.254};
+									name="border_lao_1_30";
+									type="Empty";
+									id=133;
+								};
+								class Item25
+								{
+									dataType="Marker";
+									position[]={5148.7622,137.49602,16224.099};
+									name="border_lao_1_31";
+									type="Empty";
+									id=134;
+								};
+								class Item26
+								{
+									dataType="Marker";
+									position[]={5286.9854,172.94241,16074.045};
+									name="border_lao_1_32";
+									type="Empty";
+									id=135;
+								};
+								class Item27
+								{
+									dataType="Marker";
+									position[]={5373.4277,146.77512,15947.431};
+									name="border_lao_1_33";
+									type="Empty";
+									id=136;
+								};
+								class Item28
+								{
+									dataType="Marker";
+									position[]={5428.7505,139.86324,15850.742};
+									name="border_lao_1_34";
+									type="Empty";
+									id=137;
+								};
+								class Item29
+								{
+									dataType="Marker";
+									position[]={5570.5156,120.991,15783.982};
+									name="border_lao_1_35";
+									type="Empty";
+									id=138;
+								};
+								class Item30
+								{
+									dataType="Marker";
+									position[]={5662.7217,125.51773,15688.445};
+									name="border_lao_1_36";
+									type="Empty";
+									id=139;
+								};
+								class Item31
+								{
+									dataType="Marker";
+									position[]={5720.3496,144.07129,15589.454};
+									name="border_lao_1_37";
+									type="Empty";
+									id=140;
+								};
+								class Item32
+								{
+									dataType="Marker";
+									position[]={5703.0615,79.259476,15491.616};
+									name="border_lao_1_38";
+									type="Empty";
+									id=141;
+								};
+								class Item33
+								{
+									dataType="Marker";
+									position[]={5624.687,43.3568,15391.475};
+									name="border_lao_1_39";
+									type="Empty";
+									id=142;
+								};
+								class Item34
+								{
+									dataType="Marker";
+									position[]={2902.302,207.32919,19673.148};
+									name="border_lao_1_4";
+									type="Empty";
+									id=107;
+									atlOffset=1.5258789e-005;
+								};
+								class Item35
+								{
+									dataType="Marker";
+									position[]={5608.1709,6.1637745,15318.364};
+									name="border_lao_1_40";
+									type="Empty";
+									id=143;
+								};
+								class Item36
+								{
+									dataType="Marker";
+									position[]={5602.7451,-7.0159998,15273.519};
+									name="border_lao_1_41";
+									type="Empty";
+									id=144;
+									atlOffset=0.029700756;
+								};
+								class Item37
+								{
+									dataType="Marker";
+									position[]={3032.126,189.25629,19569.02};
+									name="border_lao_1_5";
+									type="Empty";
+									id=108;
+									atlOffset=1.5258789e-005;
+								};
+								class Item38
+								{
+									dataType="Marker";
+									position[]={3143.5488,154.40918,19487.348};
+									name="border_lao_1_6";
+									type="Empty";
+									id=109;
+									atlOffset=1.5258789e-005;
+								};
+								class Item39
+								{
+									dataType="Marker";
+									position[]={3206.9272,166.38007,19401.594};
+									name="border_lao_1_7";
+									type="Empty";
+									id=110;
+									atlOffset=1.5258789e-005;
+								};
+								class Item40
+								{
+									dataType="Marker";
+									position[]={3235.5496,163.06129,19232.127};
+									name="border_lao_1_8";
+									type="Empty";
+									id=111;
+									atlOffset=1.5258789e-005;
+								};
+								class Item41
+								{
+									dataType="Marker";
+									position[]={3279.5059,154.4315,19088.182};
+									name="border_lao_1_9";
+									type="Empty";
+									id=112;
+									atlOffset=1.5258789e-005;
+								};
+							};
+							id=145;
+							atlOffset=-6.2947235;
+						};
+						class Item1
+						{
+							dataType="Layer";
+							name="border_lao_2";
+							class Entities
+							{
+								items=70;
+								class Item0
+								{
+									dataType="Marker";
+									position[]={8663.0576,-5.4521484,10094.299};
+									name="border_laos_1_0";
+									type="Empty";
+									id=397;
+									atlOffset=13.638973;
+								};
+								class Item1
+								{
+									dataType="Marker";
+									position[]={8598.3223,-17.677935,10096.319};
+									name="border_laos_1_1";
+									type="Empty";
+									id=398;
+									atlOffset=7.0458736;
+								};
+								class Item2
+								{
+									dataType="Marker";
+									position[]={8459.6182,-28.042707,10036.173};
+									name="border_laos_1_2";
+									type="Empty";
+									id=399;
+									atlOffset=7.0458736;
+								};
+								class Item3
+								{
+									dataType="Marker";
+									position[]={8356.5098,-26.710905,9973.5723};
+									name="border_laos_1_3";
+									type="Empty";
+									id=400;
+									atlOffset=7.0458736;
+								};
+								class Item4
+								{
+									dataType="Marker";
+									position[]={8309.8652,-25.473475,9880.2832};
+									name="border_laos_1_4";
+									type="Empty";
+									id=401;
+									atlOffset=7.0458736;
+								};
+								class Item5
+								{
+									dataType="Marker";
+									position[]={8239.8994,-29.015631,9801.7266};
+									name="border_laos_1_5";
+									type="Empty";
+									id=402;
+									atlOffset=7.0458736;
+								};
+								class Item6
+								{
+									dataType="Marker";
+									position[]={8193.2549,-33.226208,9705.9824};
+									name="border_laos_1_6";
+									type="Empty";
+									id=403;
+									atlOffset=7.0458717;
+								};
+								class Item7
+								{
+									dataType="Marker";
+									position[]={8155.2031,-26.618746,9631.1055};
+									name="border_laos_1_7";
+									type="Empty";
+									id=404;
+									atlOffset=7.0458736;
+								};
+								class Item8
+								{
+									dataType="Marker";
+									position[]={8070.5073,-26.808676,9612.6943};
+									name="border_laos_1_8";
+									type="Empty";
+									id=405;
+									atlOffset=7.0458736;
+								};
+								class Item9
+								{
+									dataType="Marker";
+									position[]={7960.0347,-17.38221,9681.4336};
+									name="border_laos_1_9";
+									type="Empty";
+									id=406;
+									atlOffset=7.0458736;
+								};
+								class Item10
+								{
+									dataType="Marker";
+									position[]={7885.1582,-16.900743,9755.0801};
+									name="border_laos_1_10";
+									type="Empty";
+									id=407;
+									atlOffset=7.0458736;
+								};
+								class Item11
+								{
+									dataType="Marker";
+									position[]={7820.1025,-16.001698,9817.6816};
+									name="border_laos_1_11";
+									type="Empty";
+									id=408;
+									atlOffset=7.0458736;
+								};
+								class Item12
+								{
+									dataType="Marker";
+									position[]={7793.9385,14.50239,9922.6738};
+									name="border_laos_1_12";
+									type="Empty";
+									id=409;
+									atlOffset=7.0458736;
+								};
+								class Item13
+								{
+									dataType="Marker";
+									position[]={7780.5195,11.734716,10018.848};
+									name="border_laos_1_13";
+									type="Empty";
+									id=410;
+									atlOffset=7.0458736;
+								};
+								class Item14
+								{
+									dataType="Marker";
+									position[]={7744.7334,11.544857,10088.183};
+									name="border_laos_1_14";
+									type="Empty";
+									id=411;
+									atlOffset=7.0458722;
+								};
+								class Item15
+								{
+									dataType="Marker";
+									position[]={7655.269,42.061302,10244.746};
+									name="border_laos_1_15";
+									type="Empty";
+									id=412;
+									atlOffset=7.0458717;
+								};
+								class Item16
+								{
+									dataType="Marker";
+									position[]={7565.8052,44.737122,10354.338};
+									name="border_laos_1_16";
+									type="Empty";
+									id=413;
+									atlOffset=7.0458717;
+								};
+								class Item17
+								{
+									dataType="Marker";
+									position[]={7409.2422,103.83586,10497.482};
+									name="border_laos_1_17";
+									type="Empty";
+									id=414;
+									atlOffset=7.0458755;
+								};
+								class Item18
+								{
+									dataType="Marker";
+									position[]={7315.3047,121.13612,10593.657};
+									name="border_laos_1_18";
+									type="Empty";
+									id=415;
+									atlOffset=7.0458832;
+								};
+								class Item19
+								{
+									dataType="Marker";
+									position[]={7212.4209,136.30023,10696.541};
+									name="border_laos_1_19";
+									type="Empty";
+									id=416;
+									atlOffset=7.0458679;
+								};
+								class Item20
+								{
+									dataType="Marker";
+									position[]={7129.6655,120.34045,10765.877};
+									name="border_laos_1_20";
+									type="Empty";
+									id=417;
+									atlOffset=7.0458755;
+								};
+								class Item21
+								{
+									dataType="Marker";
+									position[]={7053.6211,113.14388,10828.501};
+									name="border_laos_1_21";
+									type="Empty";
+									id=418;
+									atlOffset=7.0458755;
+								};
+								class Item22
+								{
+									dataType="Marker";
+									position[]={6917.188,111.42669,10920.201};
+									name="border_laos_1_22";
+									type="Empty";
+									id=419;
+									atlOffset=7.0458755;
+								};
+								class Item23
+								{
+									dataType="Marker";
+									position[]={6805.3574,75.193512,10989.536};
+									name="border_laos_1_23";
+									type="Empty";
+									id=420;
+									atlOffset=7.0458755;
+								};
+								class Item24
+								{
+									dataType="Marker";
+									position[]={6713.6567,66.264122,11047.688};
+									name="border_laos_1_24";
+									type="Empty";
+									id=421;
+									atlOffset=7.0456772;
+								};
+								class Item25
+								{
+									dataType="Marker";
+									position[]={6545.9111,64.892326,11121.496};
+									name="border_laos_1_25";
+									type="Empty";
+									id=422;
+									atlOffset=7.0458717;
+								};
+								class Item26
+								{
+									dataType="Marker";
+									position[]={6445.2637,68.333519,11170.701};
+									name="border_laos_1_26";
+									type="Empty";
+									id=423;
+									atlOffset=7.0458717;
+								};
+								class Item27
+								{
+									dataType="Marker";
+									position[]={6326.7236,74.566093,11206.486};
+									name="border_laos_1_27";
+									type="Empty";
+									id=424;
+									atlOffset=7.0458755;
+								};
+								class Item28
+								{
+									dataType="Marker";
+									position[]={6201.4736,98.886169,11257.93};
+									name="border_laos_1_28";
+									type="Empty";
+									id=425;
+									atlOffset=7.0458755;
+								};
+								class Item29
+								{
+									dataType="Marker";
+									position[]={6029.2549,129.95091,11340.684};
+									name="border_laos_1_29";
+									type="Empty";
+									id=426;
+									atlOffset=7.0458755;
+								};
+								class Item30
+								{
+									dataType="Marker";
+									position[]={5906.2407,179.60124,11378.706};
+									name="border_laos_1_30";
+									type="Empty";
+									id=427;
+									atlOffset=7.0458679;
+								};
+								class Item31
+								{
+									dataType="Marker";
+									position[]={5758.625,214.21265,11405.545};
+									name="border_laos_1_31";
+									type="Empty";
+									id=428;
+									atlOffset=7.0458679;
+								};
+								class Item32
+								{
+									dataType="Marker";
+									position[]={5657.9775,223.28708,11407.782};
+									name="border_laos_1_32";
+									type="Empty";
+									id=429;
+									atlOffset=7.0458679;
+								};
+								class Item33
+								{
+									dataType="Marker";
+									position[]={5465.6289,273.79248,11412.256};
+									name="border_laos_1_33";
+									type="Empty";
+									id=430;
+									atlOffset=7.0458679;
+								};
+								class Item34
+								{
+									dataType="Marker";
+									position[]={5369.8223,299.63904,11376.375};
+									name="border_laos_1_34";
+									type="Empty";
+									id=431;
+									atlOffset=7.0458679;
+								};
+								class Item35
+								{
+									dataType="Marker";
+									position[]={5310.0029,287.62445,11307.759};
+									name="border_laos_1_35";
+									type="Empty";
+									id=432;
+									atlOffset=7.0458679;
+								};
+								class Item36
+								{
+									dataType="Marker";
+									position[]={5207.9595,296.46545,11228.586};
+									name="border_laos_1_36";
+									type="Empty";
+									id=433;
+									atlOffset=7.0458679;
+								};
+								class Item37
+								{
+									dataType="Marker";
+									position[]={5056.6528,319.37122,11124.783};
+									name="border_laos_1_37";
+									type="Empty";
+									id=434;
+									atlOffset=7.0458679;
+								};
+								class Item38
+								{
+									dataType="Marker";
+									position[]={4912.3838,260.7215,11013.941};
+									name="border_laos_1_38";
+									type="Empty";
+									id=435;
+									atlOffset=7.0458832;
+								};
+								class Item39
+								{
+									dataType="Marker";
+									position[]={4799.7832,242.72449,10952.363};
+									name="border_laos_1_39";
+									type="Empty";
+									id=436;
+									atlOffset=7.0458679;
+								};
+								class Item40
+								{
+									dataType="Marker";
+									position[]={4650.2363,200.72409,10910.138};
+									name="border_laos_1_40";
+									type="Empty";
+									id=437;
+									atlOffset=7.0458679;
+								};
+								class Item41
+								{
+									dataType="Marker";
+									position[]={4534.1172,147.23903,10883.748};
+									name="border_laos_1_41";
+									type="Empty";
+									id=438;
+									atlOffset=7.0458679;
+								};
+								class Item42
+								{
+									dataType="Marker";
+									position[]={4328.2705,119.13181,10846.801};
+									name="border_laos_1_42";
+									type="Empty";
+									id=439;
+									atlOffset=7.0458755;
+								};
+								class Item43
+								{
+									dataType="Marker";
+									position[]={4220.9482,142.57417,10845.041};
+									name="border_laos_1_43";
+									type="Empty";
+									id=440;
+									atlOffset=7.0458679;
+								};
+								class Item44
+								{
+									dataType="Marker";
+									position[]={4046.7695,155.77676,10860.875};
+									name="border_laos_1_44";
+									type="Empty";
+									id=441;
+									atlOffset=7.0458679;
+								};
+								class Item45
+								{
+									dataType="Marker";
+									position[]={3851.4785,157.31689,10876.71};
+									name="border_laos_1_45";
+									type="Empty";
+									id=442;
+									atlOffset=7.0458679;
+								};
+								class Item46
+								{
+									dataType="Marker";
+									position[]={3738.8779,175.77843,10904.859};
+									name="border_laos_1_46";
+									type="Empty";
+									id=443;
+									atlOffset=7.0459747;
+								};
+								class Item47
+								{
+									dataType="Marker";
+									position[]={3594.6094,165.12581,10950.604};
+									name="border_laos_1_47";
+									type="Empty";
+									id=444;
+									atlOffset=7.0458679;
+								};
+								class Item48
+								{
+									dataType="Marker";
+									position[]={3483.7681,189.48486,10996.348};
+									name="border_laos_1_48";
+									type="Empty";
+									id=445;
+									atlOffset=7.0458679;
+								};
+								class Item49
+								{
+									dataType="Marker";
+									position[]={3395.7998,161.78358,11026.258};
+									name="border_laos_1_49";
+									type="Empty";
+									id=446;
+									atlOffset=7.0457611;
+								};
+								class Item50
+								{
+									dataType="Marker";
+									position[]={3256.8086,168.25958,10975.234};
+									name="border_laos_1_50";
+									type="Empty";
+									id=447;
+									atlOffset=7.0458679;
+								};
+								class Item51
+								{
+									dataType="Marker";
+									position[]={3189.9521,146.1308,10936.528};
+									name="border_laos_1_51";
+									type="Empty";
+									id=448;
+									atlOffset=7.0458679;
+								};
+								class Item52
+								{
+									dataType="Marker";
+									position[]={2973.5488,53.39909,10871.432};
+									name="border_laos_1_52";
+									type="Empty";
+									id=449;
+									atlOffset=7.0458984;
+								};
+								class Item53
+								{
+									dataType="Marker";
+									position[]={2853.9111,47.372108,10896.063};
+									name="border_laos_1_53";
+									type="Empty";
+									id=450;
+									atlOffset=7.0458527;
+								};
+								class Item54
+								{
+									dataType="Marker";
+									position[]={2685.0107,34.473721,10934.77};
+									name="border_laos_1_54";
+									type="Empty";
+									id=451;
+									atlOffset=7.0458736;
+								};
+								class Item55
+								{
+									dataType="Marker";
+									position[]={2512.2109,18.165367,10949.006};
+									name="border_laos_1_55";
+									type="Empty";
+									id=452;
+									atlOffset=7.0458441;
+								};
+								class Item56
+								{
+									dataType="Marker";
+									position[]={2254.3311,14.396347,10964.875};
+									name="border_laos_1_56";
+									type="Empty";
+									id=453;
+									atlOffset=7.0458937;
+								};
+								class Item57
+								{
+									dataType="Marker";
+									position[]={2000.418,94.607079,10964.875};
+									name="border_laos_1_57";
+									type="Empty";
+									id=454;
+									atlOffset=7.0458755;
+								};
+								class Item58
+								{
+									dataType="Marker";
+									position[]={1811.9673,41.773045,10976.777};
+									name="border_laos_1_58";
+									type="Empty";
+									id=455;
+									atlOffset=7.045845;
+								};
+								class Item59
+								{
+									dataType="Marker";
+									position[]={1556.0703,27.024384,10988.68};
+									name="border_laos_1_59";
+									type="Empty";
+									id=456;
+									atlOffset=7.0458679;
+								};
+								class Item60
+								{
+									dataType="Marker";
+									position[]={1294.2231,30.846821,11010.5};
+									name="border_laos_1_60";
+									type="Empty";
+									id=457;
+									atlOffset=7.0458584;
+								};
+								class Item61
+								{
+									dataType="Marker";
+									position[]={1018.4893,41.654022,11022.402};
+									name="border_laos_1_61";
+									type="Empty";
+									id=458;
+									atlOffset=7.0458298;
+								};
+								class Item62
+								{
+									dataType="Marker";
+									position[]={907.40283,63.546097,11030.338};
+									name="border_laos_1_62";
+									type="Empty";
+									id=459;
+									atlOffset=7.0458679;
+								};
+								class Item63
+								{
+									dataType="Marker";
+									position[]={784.41357,92.96344,11081.914};
+									name="border_laos_1_63";
+									type="Empty";
+									id=460;
+									atlOffset=7.045845;
+								};
+								class Item64
+								{
+									dataType="Marker";
+									position[]={635.63672,161.10356,11161.261};
+									name="border_laos_1_64";
+									type="Empty";
+									id=461;
+									atlOffset=7.0458832;
+								};
+								class Item65
+								{
+									dataType="Marker";
+									position[]={467.02246,246.53455,11244.578};
+									name="border_laos_1_65";
+									type="Empty";
+									id=462;
+									atlOffset=7.0458984;
+								};
+								class Item66
+								{
+									dataType="Marker";
+									position[]={276.5535,184.31305,11221.063};
+									name="border_laos_1_66";
+									type="Empty";
+									id=463;
+								};
+								class Item67
+								{
+									dataType="Marker";
+									position[]={167.53848,157.46463,11195.086};
+									name="border_laos_1_67";
+									type="Empty";
+									id=464;
+								};
+								class Item68
+								{
+									dataType="Marker";
+									position[]={85.240494,149.19922,11179.366};
+									name="border_laos_1_68";
+									type="Empty";
+									id=465;
+									atlOffset=15.914429;
+								};
+								class Item69
+								{
+									dataType="Marker";
+									position[]={0,135.713,11172.366};
+									name="border_laos_1_69";
+									type="Empty";
+									id=466;
+									atlOffset=11.588799;
+								};
+							};
+							id=396;
+							atlOffset=10.980301;
+						};
+					};
+					id=102;
+					atlOffset=58.220703;
+				};
+				class Item2
+				{
+					dataType="Layer";
+					name="arvn_area";
+					state=1;
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Layer";
+							name="border_arvn_2";
+							class Entities
+							{
+								items=153;
+								class Item0
+								{
+									dataType="Marker";
+									position[]={6998.1602,-87.074997,-160};
+									name="border_arvn_2_0";
+									type="Empty";
+									id=468;
+									atlOffset=16.023003;
+								};
+								class Item1
+								{
+									dataType="Marker";
+									position[]={6987.5293,-15.118776,3586.6968};
+									name="border_arvn_2_1";
+									type="Empty";
+									id=469;
+									atlOffset=7.0455856;
+								};
+								class Item2
+								{
+									dataType="Marker";
+									position[]={6489.8823,-10.905357,4619.5166};
+									name="border_arvn_2_10";
+									type="Empty";
+									id=478;
+									atlOffset=7.0455856;
+								};
+								class Item3
+								{
+									dataType="Marker";
+									position[]={9417.0684,0.86874247,7917.0791};
+									name="border_arvn_2_100";
+									type="Empty";
+									id=568;
+									atlOffset=7.0455856;
+								};
+								class Item4
+								{
+									dataType="Marker";
+									position[]={9468.6221,1.6039991,7956.3584};
+									name="border_arvn_2_101";
+									type="Empty";
+									id=569;
+									atlOffset=7.0455856;
+								};
+								class Item5
+								{
+									dataType="Marker";
+									position[]={9494.3994,0.92201138,7995.6372};
+									name="border_arvn_2_102";
+									type="Empty";
+									id=570;
+									atlOffset=7.0455856;
+								};
+								class Item6
+								{
+									dataType="Marker";
+									position[]={9506.6748,0.84543896,8065.6045};
+									name="border_arvn_2_103";
+									type="Empty";
+									id=571;
+									atlOffset=7.0455856;
+								};
+								class Item7
+								{
+									dataType="Marker";
+									position[]={9504.2197,0.65842485,8115.9302};
+									name="border_arvn_2_104";
+									type="Empty";
+									id=572;
+									atlOffset=7.0455856;
+								};
+								class Item8
+								{
+									dataType="Marker";
+									position[]={9495.627,2.0958838,8176.0767};
+									name="border_arvn_2_105";
+									type="Empty";
+									id=573;
+									atlOffset=7.0455856;
+								};
+								class Item9
+								{
+									dataType="Marker";
+									position[]={9517.7217,-5.0716581,8233.7686};
+									name="border_arvn_2_106";
+									type="Empty";
+									id=574;
+									atlOffset=7.0455856;
+								};
+								class Item10
+								{
+									dataType="Marker";
+									position[]={9533.6787,-8.4926004,8274.2754};
+									name="border_arvn_2_107";
+									type="Empty";
+									id=575;
+									atlOffset=7.0455856;
+								};
+								class Item11
+								{
+									dataType="Marker";
+									position[]={9532.4512,-5.12006,8324.6016};
+									name="border_arvn_2_108";
+									type="Empty";
+									id=576;
+									atlOffset=7.0455856;
+								};
+								class Item12
+								{
+									dataType="Marker";
+									position[]={9487.5557,0.8873291,8355.4854};
+									name="border_arvn_2_109";
+									type="Empty";
+									id=577;
+									atlOffset=7.0034776;
+								};
+								class Item13
+								{
+									dataType="Marker";
+									position[]={6377.5313,-13.240255,4711.582};
+									name="border_arvn_2_11";
+									type="Empty";
+									id=479;
+									atlOffset=7.0455856;
+								};
+								class Item14
+								{
+									dataType="Marker";
+									position[]={9453.8926,1.6253891,8388.4297};
+									name="border_arvn_2_110";
+									type="Empty";
+									id=578;
+									atlOffset=7.0455856;
+								};
+								class Item15
+								{
+									dataType="Marker";
+									position[]={9426.8877,2.256372,8422.8008};
+									name="border_arvn_2_111";
+									type="Empty";
+									id=579;
+									atlOffset=7.0455856;
+								};
+								class Item16
+								{
+									dataType="Marker";
+									position[]={9401.1113,2.9501472,8449.8047};
+									name="border_arvn_2_112";
+									type="Empty";
+									id=580;
+									atlOffset=7.0455856;
+								};
+								class Item17
+								{
+									dataType="Marker";
+									position[]={9355.6943,1.9290156,8468.2168};
+									name="border_arvn_2_113";
+									type="Empty";
+									id=581;
+									atlOffset=7.0455856;
+								};
+								class Item18
+								{
+									dataType="Marker";
+									position[]={9315.1875,1.7738008,8482.9473};
+									name="border_arvn_2_114";
+									type="Empty";
+									id=582;
+									atlOffset=7.0455856;
+								};
+								class Item19
+								{
+									dataType="Marker";
+									position[]={9279.5908,4.2256613,8523.4521};
+									name="border_arvn_2_115";
+									type="Empty";
+									id=583;
+									atlOffset=7.0455856;
+								};
+								class Item20
+								{
+									dataType="Marker";
+									position[]={9274.6807,4.4013262,8562.7324};
+									name="border_arvn_2_116";
+									type="Empty";
+									id=584;
+									atlOffset=7.0455856;
+								};
+								class Item21
+								{
+									dataType="Marker";
+									position[]={9282.0459,4.6260777,8610.6045};
+									name="border_arvn_2_117";
+									type="Empty";
+									id=585;
+									atlOffset=7.0455856;
+								};
+								class Item22
+								{
+									dataType="Marker";
+									position[]={9313.9609,3.6837595,8658.4756};
+									name="border_arvn_2_118";
+									type="Empty";
+									id=586;
+									atlOffset=7.0455856;
+								};
+								class Item23
+								{
+									dataType="Marker";
+									position[]={9363.0596,3.3786571,8700.21};
+									name="border_arvn_2_119";
+									type="Empty";
+									id=587;
+									atlOffset=7.0455856;
+								};
+								class Item24
+								{
+									dataType="Marker";
+									position[]={6277.6636,-5.4540434,4791.1646};
+									name="border_arvn_2_12";
+									type="Empty";
+									id=480;
+									atlOffset=7.0455856;
+								};
+								class Item25
+								{
+									dataType="Marker";
+									position[]={9399.8838,1.9006882,8727.2148};
+									name="border_arvn_2_120";
+									type="Empty";
+									id=588;
+									atlOffset=7.0455856;
+								};
+								class Item26
+								{
+									dataType="Marker";
+									position[]={9404.7939,2.1711717,8783.6797};
+									name="border_arvn_2_121";
+									type="Empty";
+									id=589;
+									atlOffset=7.0455856;
+								};
+								class Item27
+								{
+									dataType="Marker";
+									position[]={9397.4297,2.3897238,8843.8242};
+									name="border_arvn_2_122";
+									type="Empty";
+									id=590;
+									atlOffset=7.0455856;
+								};
+								class Item28
+								{
+									dataType="Marker";
+									position[]={9370.4238,0.83204079,8907.6543};
+									name="border_arvn_2_123";
+									type="Empty";
+									id=591;
+									atlOffset=7.0455856;
+								};
+								class Item29
+								{
+									dataType="Marker";
+									position[]={9345.875,-2.9667501,8954.2979};
+									name="border_arvn_2_124";
+									type="Empty";
+									id=592;
+									atlOffset=7.0455856;
+								};
+								class Item30
+								{
+									dataType="Marker";
+									position[]={9329.918,-1.2168331,8999.7148};
+									name="border_arvn_2_125";
+									type="Empty";
+									id=593;
+									atlOffset=7.0455856;
+								};
+								class Item31
+								{
+									dataType="Marker";
+									position[]={9326.2344,-4.8786783,9057.4063};
+									name="border_arvn_2_126";
+									type="Empty";
+									id=594;
+									atlOffset=7.0455856;
+								};
+								class Item32
+								{
+									dataType="Marker";
+									position[]={9321.3262,-5.5313931,9113.8711};
+									name="border_arvn_2_127";
+									type="Empty";
+									id=595;
+									atlOffset=7.0455856;
+								};
+								class Item33
+								{
+									dataType="Marker";
+									position[]={9264.8613,-4.9103088,9147.0117};
+									name="border_arvn_2_128";
+									type="Empty";
+									id=596;
+									atlOffset=7.0455856;
+								};
+								class Item34
+								{
+									dataType="Marker";
+									position[]={9223.127,-9.1651134,9155.6045};
+									name="border_arvn_2_129";
+									type="Empty";
+									id=597;
+									atlOffset=7.0455856;
+								};
+								class Item35
+								{
+									dataType="Marker";
+									position[]={6149.708,-20.427336,4869.1855};
+									name="border_arvn_2_13";
+									type="Empty";
+									id=481;
+									atlOffset=7.0455856;
+								};
+								class Item36
+								{
+									dataType="Marker";
+									position[]={9151.9326,-1.1445274,9176.4727};
+									name="border_arvn_2_130";
+									type="Empty";
+									id=598;
+									atlOffset=7.0455856;
+								};
+								class Item37
+								{
+									dataType="Marker";
+									position[]={9104.0615,0.0075035095,9209.6133};
+									name="border_arvn_2_131";
+									type="Empty";
+									id=599;
+									atlOffset=7.0455856;
+								};
+								class Item38
+								{
+									dataType="Marker";
+									position[]={9131.0664,0.098624706,9270.9873};
+									name="border_arvn_2_132";
+									type="Empty";
+									id=600;
+									atlOffset=7.0455856;
+								};
+								class Item39
+								{
+									dataType="Marker";
+									position[]={9186.3027,-0.26457691,9313.9502};
+									name="border_arvn_2_133";
+									type="Empty";
+									id=601;
+									atlOffset=7.0455856;
+								};
+								class Item40
+								{
+									dataType="Marker";
+									position[]={9213.3066,-0.47911787,9338.498};
+									name="border_arvn_2_134";
+									type="Empty";
+									id=602;
+									atlOffset=7.0455856;
+								};
+								class Item41
+								{
+									dataType="Marker";
+									position[]={9268.5439,-1.6857834,9398.6445};
+									name="border_arvn_2_135";
+									type="Empty";
+									id=603;
+									atlOffset=7.0455856;
+								};
+								class Item42
+								{
+									dataType="Marker";
+									position[]={9298.0029,0.31001568,9440.3799};
+									name="border_arvn_2_136";
+									type="Empty";
+									id=604;
+									atlOffset=7.0455856;
+								};
+								class Item43
+								{
+									dataType="Marker";
+									position[]={9359.377,0.92230892,9500.5264};
+									name="border_arvn_2_137";
+									type="Empty";
+									id=605;
+									atlOffset=7.0455856;
+								};
+								class Item44
+								{
+									dataType="Marker";
+									position[]={9403.5654,-0.99038315,9525.0762};
+									name="border_arvn_2_138";
+									type="Empty";
+									id=606;
+									atlOffset=7.0455856;
+								};
+								class Item45
+								{
+									dataType="Marker";
+									position[]={9426.8877,-7.0952463,9570.4932};
+									name="border_arvn_2_139";
+									type="Empty";
+									id=607;
+									atlOffset=7.0455856;
+								};
+								class Item46
+								{
+									dataType="Marker";
+									position[]={6090.4121,-15.915546,4930.0415};
+									name="border_arvn_2_14";
+									type="Empty";
+									id=482;
+									atlOffset=7.0455856;
+								};
+								class Item47
+								{
+									dataType="Marker";
+									position[]={9412.1582,-5.0359726,9623.2734};
+									name="border_arvn_2_140";
+									type="Empty";
+									id=608;
+									atlOffset=7.0455856;
+								};
+								class Item48
+								{
+									dataType="Marker";
+									position[]={9381.4707,-4.080533,9655.1895};
+									name="border_arvn_2_141";
+									type="Empty";
+									id=609;
+									atlOffset=7.0455856;
+								};
+								class Item49
+								{
+									dataType="Marker";
+									position[]={9318.8701,-6.4135809,9696.9229};
+									name="border_arvn_2_142";
+									type="Empty";
+									id=610;
+									atlOffset=7.0455856;
+								};
+								class Item50
+								{
+									dataType="Marker";
+									position[]={9263.6338,-0.58709478,9726.3818};
+									name="border_arvn_2_143";
+									type="Empty";
+									id=611;
+									atlOffset=7.0455856;
+								};
+								class Item51
+								{
+									dataType="Marker";
+									position[]={9250.1309,-0.39920187,9760.752};
+									name="border_arvn_2_144";
+									type="Empty";
+									id=612;
+									atlOffset=7.0455856;
+								};
+								class Item52
+								{
+									dataType="Marker";
+									position[]={9259.9521,-5.8315973,9815.9873};
+									name="border_arvn_2_145";
+									type="Empty";
+									id=613;
+									atlOffset=7.0455856;
+								};
+								class Item53
+								{
+									dataType="Marker";
+									position[]={9258.7236,-16.057749,9861.4053};
+									name="border_arvn_2_146";
+									type="Empty";
+									id=614;
+									atlOffset=7.0455856;
+								};
+								class Item54
+								{
+									dataType="Marker";
+									position[]={9225.582,-10.627705,9900.6846};
+									name="border_arvn_2_147";
+									type="Empty";
+									id=615;
+									atlOffset=7.0455856;
+								};
+								class Item55
+								{
+									dataType="Marker";
+									position[]={9139.6582,-3.7200727,9949.7832};
+									name="border_arvn_2_148";
+									type="Empty";
+									id=616;
+									atlOffset=7.0455856;
+								};
+								class Item56
+								{
+									dataType="Marker";
+									position[]={9052.5078,-1.0342932,9978.0137};
+									name="border_arvn_2_149";
+									type="Empty";
+									id=617;
+									atlOffset=7.0455856;
+								};
+								class Item57
+								{
+									dataType="Marker";
+									position[]={6032.6763,-18.04217,5004.9424};
+									name="border_arvn_2_15";
+									type="Empty";
+									id=483;
+									atlOffset=7.0455856;
+								};
+								class Item58
+								{
+									dataType="Marker";
+									position[]={8970.2676,-1.154233,10032.022};
+									name="border_arvn_2_150";
+									type="Empty";
+									id=618;
+									atlOffset=7.0455856;
+								};
+								class Item59
+								{
+									dataType="Marker";
+									position[]={8787.998,-1.1298828,9984.6465};
+									name="border_arvn_2_151";
+									type="Empty";
+									id=619;
+									atlOffset=23.054527;
+								};
+								class Item60
+								{
+									dataType="Marker";
+									position[]={8663.4395,0.56542969,10093.982};
+									name="border_arvn_2_152";
+									type="Empty";
+									id=620;
+									atlOffset=19.649532;
+								};
+								class Item61
+								{
+									dataType="Marker";
+									position[]={5978.061,-13.708902,5104.8105};
+									name="border_arvn_2_16";
+									type="Empty";
+									id=484;
+									atlOffset=7.0455856;
+								};
+								class Item62
+								{
+									dataType="Marker";
+									position[]={5954.6543,-13.634415,5209.3594};
+									name="border_arvn_2_17";
+									type="Empty";
+									id=485;
+									atlOffset=7.0455856;
+								};
+								class Item63
+								{
+									dataType="Marker";
+									position[]={5953.0938,-13.634415,5292.0615};
+									name="border_arvn_2_18";
+									type="Empty";
+									id=486;
+									atlOffset=7.0455856;
+								};
+								class Item64
+								{
+									dataType="Marker";
+									position[]={5992.105,-27.03606,5395.0498};
+									name="border_arvn_2_19";
+									type="Empty";
+									id=487;
+									atlOffset=7.0455856;
+								};
+								class Item65
+								{
+									dataType="Marker";
+									position[]={6791.0449,-13.254955,3701.9834};
+									name="border_arvn_2_2";
+									type="Empty";
+									id=470;
+									atlOffset=7.0455856;
+								};
+								class Item66
+								{
+									dataType="Marker";
+									position[]={6098.2139,-13.834414,5444.9844};
+									name="border_arvn_2_20";
+									type="Empty";
+									id=488;
+									atlOffset=7.0455856;
+								};
+								class Item67
+								{
+									dataType="Marker";
+									position[]={6179.3564,-14.035408,5469.9512};
+									name="border_arvn_2_21";
+									type="Empty";
+									id=489;
+									atlOffset=7.0455856;
+								};
+								class Item68
+								{
+									dataType="Marker";
+									position[]={6260.4985,-14.174414,5471.5112};
+									name="border_arvn_2_22";
+									type="Empty";
+									id=490;
+									atlOffset=7.0455856;
+								};
+								class Item69
+								{
+									dataType="Marker";
+									position[]={6324.4766,-14.185278,5460.5898};
+									name="border_arvn_2_23";
+									type="Empty";
+									id=491;
+									atlOffset=7.0455856;
+								};
+								class Item70
+								{
+									dataType="Marker";
+									position[]={6419.6631,2.3371134,5501.1611};
+									name="border_arvn_2_24";
+									type="Empty";
+									id=492;
+									atlOffset=7.0455856;
+								};
+								class Item71
+								{
+									dataType="Marker";
+									position[]={6466.4756,-11.272211,5560.4565};
+									name="border_arvn_2_25";
+									type="Empty";
+									id=493;
+									atlOffset=7.0455856;
+								};
+								class Item72
+								{
+									dataType="Marker";
+									position[]={6508.6074,-11.516182,5638.4775};
+									name="border_arvn_2_26";
+									type="Empty";
+									id=494;
+									atlOffset=7.0455856;
+								};
+								class Item73
+								{
+									dataType="Marker";
+									position[]={6536.6948,-7.7101631,5700.8945};
+									name="border_arvn_2_27";
+									type="Empty";
+									id=495;
+									atlOffset=7.0455856;
+								};
+								class Item74
+								{
+									dataType="Marker";
+									position[]={6605.3535,-7.8662653,5803.8843};
+									name="border_arvn_2_28";
+									type="Empty";
+									id=496;
+									atlOffset=7.0455856;
+								};
+								class Item75
+								{
+									dataType="Marker";
+									position[]={6647.4854,-5.0876703,5869.4214};
+									name="border_arvn_2_29";
+									type="Empty";
+									id=497;
+									atlOffset=7.0455856;
+								};
+								class Item76
+								{
+									dataType="Marker";
+									position[]={6674.0127,-11.125338,3812.7744};
+									name="border_arvn_2_3";
+									type="Empty";
+									id=471;
+									atlOffset=7.0455856;
+								};
+								class Item77
+								{
+									dataType="Marker";
+									position[]={6728.6274,-4.5464859,5942.7612};
+									name="border_arvn_2_30";
+									type="Empty";
+									id=498;
+									atlOffset=7.0455856;
+								};
+								class Item78
+								{
+									dataType="Marker";
+									position[]={6834.7368,-12.381447,5961.4868};
+									name="border_arvn_2_31";
+									type="Empty";
+									id=499;
+									atlOffset=7.0455856;
+								};
+								class Item79
+								{
+									dataType="Marker";
+									position[]={6915.4473,-12.729795,5982.3999};
+									name="border_arvn_2_32";
+									type="Empty";
+									id=500;
+									atlOffset=7.0455856;
+								};
+								class Item80
+								{
+									dataType="Marker";
+									position[]={6983.5356,-12.105663,5972.3135};
+									name="border_arvn_2_33";
+									type="Empty";
+									id=501;
+									atlOffset=7.0455856;
+								};
+								class Item81
+								{
+									dataType="Marker";
+									position[]={7079.3628,-15.194414,5974.835};
+									name="border_arvn_2_34";
+									type="Empty";
+									id=502;
+									atlOffset=7.0455856;
+								};
+								class Item82
+								{
+									dataType="Marker";
+									position[]={7152.4946,-23.581001,5992.4863};
+									name="border_arvn_2_35";
+									type="Empty";
+									id=503;
+									atlOffset=7.0455856;
+								};
+								class Item83
+								{
+									dataType="Marker";
+									position[]={7230.6689,-16.857353,6017.7051};
+									name="border_arvn_2_36";
+									type="Empty";
+									id=504;
+									atlOffset=7.0455856;
+								};
+								class Item84
+								{
+									dataType="Marker";
+									position[]={7296.2354,-7.7271376,6047.9663};
+									name="border_arvn_2_37";
+									type="Empty";
+									id=505;
+									atlOffset=7.0455856;
+								};
+								class Item85
+								{
+									dataType="Marker";
+									position[]={7349.1919,-8.1071272,6090.8359};
+									name="border_arvn_2_38";
+									type="Empty";
+									id=506;
+									atlOffset=7.0455856;
+								};
+								class Item86
+								{
+									dataType="Marker";
+									position[]={7379.4536,-8.6503305,6131.1855};
+									name="border_arvn_2_39";
+									type="Empty";
+									id=507;
+									atlOffset=7.0455856;
+								};
+								class Item87
+								{
+									dataType="Marker";
+									position[]={6600.6719,-11.521023,3932.9272};
+									name="border_arvn_2_4";
+									type="Empty";
+									id=472;
+									atlOffset=7.0455856;
+								};
+								class Item88
+								{
+									dataType="Marker";
+									position[]={7424.8457,-3.1777983,6189.1855};
+									name="border_arvn_2_40";
+									type="Empty";
+									id=508;
+									atlOffset=7.0455856;
+								};
+								class Item89
+								{
+									dataType="Marker";
+									position[]={7492.9336,-2.8134251,6232.0557};
+									name="border_arvn_2_41";
+									type="Empty";
+									id=509;
+									atlOffset=7.0455856;
+								};
+								class Item90
+								{
+									dataType="Marker";
+									position[]={7550.9346,-1.5373907,6257.2744};
+									name="border_arvn_2_42";
+									type="Empty";
+									id=510;
+									atlOffset=7.1303406;
+								};
+								class Item91
+								{
+									dataType="Marker";
+									position[]={7639.1953,-8.593421,6262.3169};
+									name="border_arvn_2_43";
+									type="Empty";
+									id=511;
+									atlOffset=7.0455856;
+								};
+								class Item92
+								{
+									dataType="Marker";
+									position[]={7707.2842,-7.2822714,6264.8389};
+									name="border_arvn_2_44";
+									type="Empty";
+									id=512;
+									atlOffset=7.0455856;
+								};
+								class Item93
+								{
+									dataType="Marker";
+									position[]={7820.7642,5.7768064,6267.3608};
+									name="border_arvn_2_45";
+									type="Empty";
+									id=513;
+									atlOffset=7.0455856;
+								};
+								class Item94
+								{
+									dataType="Marker";
+									position[]={7888.8521,13.159359,6267.3608};
+									name="border_arvn_2_46";
+									type="Empty";
+									id=514;
+									atlOffset=7.0455856;
+								};
+								class Item95
+								{
+									dataType="Marker";
+									position[]={8009.897,27.320976,6272.4033};
+									name="border_arvn_2_47";
+									type="Empty";
+									id=515;
+									atlOffset=7.0455856;
+								};
+								class Item96
+								{
+									dataType="Marker";
+									position[]={8181.377,45.814041,6285.0137};
+									name="border_arvn_2_48";
+									type="Empty";
+									id=516;
+									atlOffset=7.0455856;
+								};
+								class Item97
+								{
+									dataType="Marker";
+									position[]={8284.7695,54.58091,6300.1426};
+									name="border_arvn_2_49";
+									type="Empty";
+									id=517;
+									atlOffset=7.0455856;
+								};
+								class Item98
+								{
+									dataType="Marker";
+									position[]={6556.9805,-13.64151,4098.3325};
+									name="border_arvn_2_5";
+									type="Empty";
+									id=473;
+									atlOffset=7.0455856;
+								};
+								class Item99
+								{
+									dataType="Marker";
+									position[]={8360.4229,66.204346,6317.7969};
+									name="border_arvn_2_50";
+									type="Empty";
+									id=518;
+									atlOffset=7.0455818;
+								};
+								class Item100
+								{
+									dataType="Marker";
+									position[]={8441.1191,80.07856,6345.5361};
+									name="border_arvn_2_51";
+									type="Empty";
+									id=519;
+									atlOffset=7.0455856;
+								};
+								class Item101
+								{
+									dataType="Marker";
+									position[]={8544.5127,92.225807,6380.8398};
+									name="border_arvn_2_52";
+									type="Empty";
+									id=520;
+									atlOffset=7.0455856;
+								};
+								class Item102
+								{
+									dataType="Marker";
+									position[]={8599.9912,97.526222,6406.0586};
+									name="border_arvn_2_53";
+									type="Empty";
+									id=521;
+									atlOffset=7.0455856;
+								};
+								class Item103
+								{
+									dataType="Marker";
+									position[]={8710.9492,97.629791,6471.6235};
+									name="border_arvn_2_54";
+									type="Empty";
+									id=522;
+									atlOffset=7.0455856;
+								};
+								class Item104
+								{
+									dataType="Marker";
+									position[]={8781.5586,83.854332,6519.5371};
+									name="border_arvn_2_55";
+									type="Empty";
+									id=523;
+									atlOffset=7.0455856;
+								};
+								class Item105
+								{
+									dataType="Marker";
+									position[]={8867.2988,85.124947,6580.0596};
+									name="border_arvn_2_56";
+									type="Empty";
+									id=524;
+									atlOffset=7.0455856;
+								};
+								class Item106
+								{
+									dataType="Marker";
+									position[]={8935.3867,96.979889,6633.0176};
+									name="border_arvn_2_57";
+									type="Empty";
+									id=525;
+									atlOffset=7.0455856;
+								};
+								class Item107
+								{
+									dataType="Marker";
+									position[]={9011.0391,94.085587,6691.0181};
+									name="border_arvn_2_58";
+									type="Empty";
+									id=526;
+									atlOffset=7.0455856;
+								};
+								class Item108
+								{
+									dataType="Marker";
+									position[]={9124.5195,96.40799,6764.1504};
+									name="border_arvn_2_59";
+									type="Empty";
+									id=527;
+									atlOffset=7.0455856;
+								};
+								class Item109
+								{
+									dataType="Marker";
+									position[]={6502.3657,-10.258589,4230.9692};
+									name="border_arvn_2_6";
+									type="Empty";
+									id=474;
+									atlOffset=7.0455856;
+								};
+								class Item110
+								{
+									dataType="Marker";
+									position[]={9255.6523,70.753754,6852.4121};
+									name="border_arvn_2_60";
+									type="Empty";
+									id=528;
+									atlOffset=7.0455818;
+								};
+								class Item111
+								{
+									dataType="Marker";
+									position[]={9316.1738,75.165756,6895.2808};
+									name="border_arvn_2_61";
+									type="Empty";
+									id=529;
+									atlOffset=7.0455856;
+								};
+								class Item112
+								{
+									dataType="Marker";
+									position[]={9409.4795,76.906982,6968.4131};
+									name="border_arvn_2_62";
+									type="Empty";
+									id=530;
+									atlOffset=7.0455856;
+								};
+								class Item113
+								{
+									dataType="Marker";
+									position[]={9462.4375,65.483902,7021.3696};
+									name="border_arvn_2_63";
+									type="Empty";
+									id=531;
+									atlOffset=7.0455894;
+								};
+								class Item114
+								{
+									dataType="Marker";
+									position[]={9520.4375,46.056805,7076.8496};
+									name="border_arvn_2_64";
+									type="Empty";
+									id=532;
+									atlOffset=7.0455856;
+								};
+								class Item115
+								{
+									dataType="Marker";
+									position[]={9575.916,16.201149,7129.8071};
+									name="border_arvn_2_65";
+									type="Empty";
+									id=533;
+									atlOffset=7.0455866;
+								};
+								class Item116
+								{
+									dataType="Marker";
+									position[]={9646.5264,10.44698,7207.981};
+									name="border_arvn_2_66";
+									type="Empty";
+									id=534;
+									atlOffset=7.0455866;
+								};
+								class Item117
+								{
+									dataType="Marker";
+									position[]={9689.3965,8.8745937,7263.4609};
+									name="border_arvn_2_67";
+									type="Empty";
+									id=535;
+									atlOffset=7.0455861;
+								};
+								class Item118
+								{
+									dataType="Marker";
+									position[]={9709.5703,-9.1846104,7341.6357};
+									name="border_arvn_2_68";
+									type="Empty";
+									id=536;
+									atlOffset=7.0455856;
+								};
+								class Item119
+								{
+									dataType="Marker";
+									position[]={9591.0469,-4.7673035,7374.418};
+									name="border_arvn_2_69";
+									type="Empty";
+									id=537;
+									atlOffset=7.0455856;
+								};
+								class Item120
+								{
+									dataType="Marker";
+									position[]={6489.8823,-11.782707,4348.002};
+									name="border_arvn_2_7";
+									type="Empty";
+									id=475;
+									atlOffset=7.0455856;
+								};
+								class Item121
+								{
+									dataType="Marker";
+									position[]={9517.916,-4.8452539,7354.2441};
+									name="border_arvn_2_70";
+									type="Empty";
+									id=538;
+									atlOffset=7.0455856;
+								};
+								class Item122
+								{
+									dataType="Marker";
+									position[]={9429.6543,2.1430101,7341.6357};
+									name="border_arvn_2_71";
+									type="Empty";
+									id=539;
+									atlOffset=7.0455856;
+								};
+								class Item123
+								{
+									dataType="Marker";
+									position[]={9381.7402,7.8311987,7318.9395};
+									name="border_arvn_2_72";
+									type="Empty";
+									id=540;
+									atlOffset=7.0455856;
+								};
+								class Item124
+								{
+									dataType="Marker";
+									position[]={9298.5215,4.1973605,7278.5913};
+									name="border_arvn_2_73";
+									type="Empty";
+									id=541;
+									atlOffset=7.0455856;
+								};
+								class Item125
+								{
+									dataType="Marker";
+									position[]={9190.0859,1.1957893,7235.7202};
+									name="border_arvn_2_74";
+									type="Empty";
+									id=542;
+									atlOffset=7.0455856;
+								};
+								class Item126
+								{
+									dataType="Marker";
+									position[]={9144.6934,1.382905,7228.1553};
+									name="border_arvn_2_75";
+									type="Empty";
+									id=543;
+									atlOffset=7.0455856;
+								};
+								class Item127
+								{
+									dataType="Marker";
+									position[]={9079.1279,-2.3864193,7238.2422};
+									name="border_arvn_2_76";
+									type="Empty";
+									id=544;
+									atlOffset=7.0455856;
+								};
+								class Item128
+								{
+									dataType="Marker";
+									position[]={8995.9092,-6.3842068,7291.2002};
+									name="border_arvn_2_77";
+									type="Empty";
+									id=545;
+									atlOffset=7.0455856;
+								};
+								class Item129
+								{
+									dataType="Marker";
+									position[]={8912.6904,-2.1744146,7376.9395};
+									name="border_arvn_2_78";
+									type="Empty";
+									id=546;
+									atlOffset=7.0455856;
+								};
+								class Item130
+								{
+									dataType="Marker";
+									position[]={8811.8203,-1.3863602,7432.4194};
+									name="border_arvn_2_79";
+									type="Empty";
+									id=547;
+									atlOffset=7.0455856;
+								};
+								class Item131
+								{
+									dataType="Marker";
+									position[]={6528.8926,-12.560242,4438.5068};
+									name="border_arvn_2_8";
+									type="Empty";
+									id=476;
+									atlOffset=7.0455856;
+								};
+								class Item132
+								{
+									dataType="Marker";
+									position[]={8771.415,1.7173834,7487.4619};
+									name="border_arvn_2_80";
+									type="Empty";
+									id=548;
+									atlOffset=7.0455856;
+								};
+								class Item133
+								{
+									dataType="Marker";
+									position[]={8760.3672,1.8115182,7527.9678};
+									name="border_arvn_2_81";
+									type="Empty";
+									id=549;
+									atlOffset=7.0455856;
+								};
+								class Item134
+								{
+									dataType="Marker";
+									position[]={8760.3672,2.6544418,7578.2949};
+									name="border_arvn_2_82";
+									type="Empty";
+									id=550;
+									atlOffset=7.0455856;
+								};
+								class Item135
+								{
+									dataType="Marker";
+									position[]={8786.1445,2.1559553,7621.2559};
+									name="border_arvn_2_83";
+									type="Empty";
+									id=551;
+									atlOffset=7.0455856;
+								};
+								class Item136
+								{
+									dataType="Marker";
+									position[]={8824.1963,2.514008,7640.896};
+									name="border_arvn_2_84";
+									type="Empty";
+									id=552;
+									atlOffset=7.0455856;
+								};
+								class Item137
+								{
+									dataType="Marker";
+									position[]={8870.8408,2.3144774,7647.0337};
+									name="border_arvn_2_85";
+									type="Empty";
+									id=553;
+									atlOffset=7.0455856;
+								};
+								class Item138
+								{
+									dataType="Marker";
+									position[]={8926.0771,2.4181013,7639.6689};
+									name="border_arvn_2_86";
+									type="Empty";
+									id=554;
+									atlOffset=7.0455856;
+								};
+								class Item139
+								{
+									dataType="Marker";
+									position[]={8983.7686,3.8486667,7643.3506};
+									name="border_arvn_2_87";
+									type="Empty";
+									id=555;
+									atlOffset=7.0455856;
+								};
+								class Item140
+								{
+									dataType="Marker";
+									position[]={9007.0908,3.3047507,7655.626};
+									name="border_arvn_2_88";
+									type="Empty";
+									id=556;
+									atlOffset=7.0455856;
+								};
+								class Item141
+								{
+									dataType="Marker";
+									position[]={9021.8203,0.71915722,7721.9102};
+									name="border_arvn_2_89";
+									type="Empty";
+									id=557;
+									atlOffset=7.0455856;
+								};
+								class Item142
+								{
+									dataType="Marker";
+									position[]={6533.5737,-10.824415,4525.8896};
+									name="border_arvn_2_9";
+									type="Empty";
+									id=477;
+									atlOffset=7.0455856;
+								};
+								class Item143
+								{
+									dataType="Marker";
+									position[]={9021.8203,0.46576023,7763.6436};
+									name="border_arvn_2_90";
+									type="Empty";
+									id=558;
+									atlOffset=7.0455856;
+								};
+								class Item144
+								{
+									dataType="Marker";
+									position[]={9014.4551,1.1149936,7828.7002};
+									name="border_arvn_2_91";
+									type="Empty";
+									id=559;
+									atlOffset=7.0455856;
+								};
+								class Item145
+								{
+									dataType="Marker";
+									position[]={9015.6826,1.0608578,7863.0703};
+									name="border_arvn_2_92";
+									type="Empty";
+									id=560;
+									atlOffset=7.0455856;
+								};
+								class Item146
+								{
+									dataType="Marker";
+									position[]={9051.2803,1.861032,7910.9424};
+									name="border_arvn_2_93";
+									type="Empty";
+									id=561;
+									atlOffset=7.0455856;
+								};
+								class Item147
+								{
+									dataType="Marker";
+									position[]={9084.4219,1.111084,7924.4434};
+									name="border_arvn_2_94";
+									type="Empty";
+									id=562;
+									atlOffset=7.0455856;
+								};
+								class Item148
+								{
+									dataType="Marker";
+									position[]={9178.9375,1.2124867,7917.0791};
+									name="border_arvn_2_95";
+									type="Empty";
+									id=563;
+									atlOffset=7.1609902;
+								};
+								class Item149
+								{
+									dataType="Marker";
+									position[]={9214.5352,0.9772253,7899.8936};
+									name="border_arvn_2_96";
+									type="Empty";
+									id=564;
+									atlOffset=7.0455856;
+								};
+								class Item150
+								{
+									dataType="Marker";
+									position[]={9274.6807,1.1621809,7887.6182};
+									name="border_arvn_2_97";
+									type="Empty";
+									id=565;
+									atlOffset=7.0455856;
+								};
+								class Item151
+								{
+									dataType="Marker";
+									position[]={9318.8701,1.1318464,7892.5293};
+									name="border_arvn_2_98";
+									type="Empty";
+									id=566;
+									atlOffset=7.0455856;
+								};
+								class Item152
+								{
+									dataType="Marker";
+									position[]={9372.8789,1.0376964,7902.3486};
+									name="border_arvn_2_99";
+									type="Empty";
+									id=567;
+									atlOffset=7.0455856;
+								};
+							};
+							id=692;
+							atlOffset=6.7256355;
+						};
+						class Item1
+						{
+							dataType="Layer";
+							name="border_arvn_1";
+							class Entities
+							{
+								items=74;
+								class Item0
+								{
+									dataType="Marker";
+									position[]={8753.3965,2.5947266,10203.316};
+									name="border_arvn_1_153";
+									type="Empty";
+									id=621;
+									atlOffset=13.024111;
+								};
+								class Item1
+								{
+									dataType="Marker";
+									position[]={8865.501,-15.245117,10246.218};
+									name="border_arvn_1_154";
+									type="Empty";
+									id=622;
+									atlOffset=2.2753906;
+								};
+								class Item2
+								{
+									dataType="Marker";
+									position[]={8947.1553,-8.9690456,10318.185};
+									name="border_arvn_1_155";
+									type="Empty";
+									id=623;
+									atlOffset=7.0455856;
+								};
+								class Item3
+								{
+									dataType="Marker";
+									position[]={8936.083,-6.5844498,10388.769};
+									name="border_arvn_1_156";
+									type="Empty";
+									id=624;
+									atlOffset=7.0455856;
+								};
+								class Item4
+								{
+									dataType="Marker";
+									position[]={8911.1709,-9.5113564,10459.351};
+									name="border_arvn_1_157";
+									type="Empty";
+									id=625;
+									atlOffset=7.0455856;
+								};
+								class Item5
+								{
+									dataType="Marker";
+									position[]={8897.332,-18.350136,10525.781};
+									name="border_arvn_1_158";
+									type="Empty";
+									id=626;
+									atlOffset=7.0455856;
+								};
+								class Item6
+								{
+									dataType="Marker";
+									position[]={8893.1797,-17.611528,10571.453};
+									name="border_arvn_1_159";
+									type="Empty";
+									id=627;
+									atlOffset=7.0455856;
+								};
+								class Item7
+								{
+									dataType="Marker";
+									position[]={8908.4033,-8.7102079,10637.885};
+									name="border_arvn_1_160";
+									type="Empty";
+									id=628;
+									atlOffset=7.0455856;
+								};
+								class Item8
+								{
+									dataType="Marker";
+									position[]={8918.0918,-14.823097,10711.234};
+									name="border_arvn_1_161";
+									type="Empty";
+									id=629;
+									atlOffset=7.0455856;
+								};
+								class Item9
+								{
+									dataType="Marker";
+									position[]={8880.7236,-22.202868,10770.747};
+									name="border_arvn_1_162";
+									type="Empty";
+									id=630;
+									atlOffset=7.0455856;
+								};
+								class Item10
+								{
+									dataType="Marker";
+									position[]={8829.5166,-26.796612,10798.426};
+									name="border_arvn_1_163";
+									type="Empty";
+									id=631;
+									atlOffset=7.0455856;
+								};
+								class Item11
+								{
+									dataType="Marker";
+									position[]={8753.3975,-26.316151,10809.497};
+									name="border_arvn_1_164";
+									type="Empty";
+									id=632;
+									atlOffset=7.0455856;
+								};
+								class Item12
+								{
+									dataType="Marker";
+									position[]={8688.3506,-16.200195,10812.266};
+									name="border_arvn_1_165";
+									type="Empty";
+									id=633;
+									atlOffset=7.0455856;
+								};
+								class Item13
+								{
+									dataType="Marker";
+									position[]={8590.0889,-16.662979,10828.872};
+									name="border_arvn_1_166";
+									type="Empty";
+									id=634;
+									atlOffset=7.0455856;
+								};
+								class Item14
+								{
+									dataType="Marker";
+									position[]={8520.6201,-22.220158,10953.525};
+									name="border_arvn_1_167";
+									type="Empty";
+									id=635;
+									atlOffset=7.0455856;
+								};
+								class Item15
+								{
+									dataType="Marker";
+									position[]={8498.1787,-34.015255,11052.905};
+									name="border_arvn_1_168";
+									type="Empty";
+									id=636;
+									atlOffset=7.0455856;
+								};
+								class Item16
+								{
+									dataType="Marker";
+									position[]={8466.1211,-35.489441,11136.256};
+									name="border_arvn_1_169";
+									type="Empty";
+									id=637;
+									atlOffset=7.0455856;
+								};
+								class Item17
+								{
+									dataType="Marker";
+									position[]={8427.6514,-33.103889,11193.961};
+									name="border_arvn_1_170";
+									type="Empty";
+									id=638;
+									atlOffset=7.0455856;
+								};
+								class Item18
+								{
+									dataType="Marker";
+									position[]={8385.9756,-2.9407072,11280.518};
+									name="border_arvn_1_171";
+									type="Empty";
+									id=639;
+									atlOffset=7.0455856;
+								};
+								class Item19
+								{
+									dataType="Marker";
+									position[]={8353.918,1.6969128,11373.486};
+									name="border_arvn_1_172";
+									type="Empty";
+									id=640;
+									atlOffset=7.0455856;
+								};
+								class Item20
+								{
+									dataType="Marker";
+									position[]={8337.8896,14.312209,11501.719};
+									name="border_arvn_1_173";
+									type="Empty";
+									id=641;
+									atlOffset=7.0455856;
+								};
+								class Item21
+								{
+									dataType="Marker";
+									position[]={8328.2715,50.73204,11649.185};
+									name="border_arvn_1_174";
+									type="Empty";
+									id=642;
+									atlOffset=7.0455856;
+								};
+								class Item22
+								{
+									dataType="Marker";
+									position[]={8328.2715,159.34961,11774.211};
+									name="border_arvn_1_175";
+									type="Empty";
+									id=643;
+									atlOffset=7.045578;
+								};
+								class Item23
+								{
+									dataType="Marker";
+									position[]={8334.6836,216.97073,11908.855};
+									name="border_arvn_1_176";
+									type="Empty";
+									id=644;
+									atlOffset=7.045578;
+								};
+								class Item24
+								{
+									dataType="Marker";
+									position[]={8328.2715,237.68585,12024.264};
+									name="border_arvn_1_177";
+									type="Empty";
+									id=645;
+									atlOffset=7.0455933;
+								};
+								class Item25
+								{
+									dataType="Marker";
+									position[]={8273.7725,268.59445,12219.816};
+									name="border_arvn_1_178";
+									type="Empty";
+									id=646;
+									atlOffset=7.0455933;
+								};
+								class Item26
+								{
+									dataType="Marker";
+									position[]={8241.7148,265.85788,12299.963};
+									name="border_arvn_1_179";
+									type="Empty";
+									id=647;
+									atlOffset=7.0455933;
+								};
+								class Item27
+								{
+									dataType="Marker";
+									position[]={8200.04,224.96576,12444.224};
+									name="border_arvn_1_180";
+									type="Empty";
+									id=648;
+									atlOffset=7.0455933;
+								};
+								class Item28
+								{
+									dataType="Marker";
+									position[]={8190.4219,246.84415,12517.957};
+									name="border_arvn_1_181";
+									type="Empty";
+									id=649;
+									atlOffset=7.0455933;
+								};
+								class Item29
+								{
+									dataType="Marker";
+									position[]={8187.2163,274.68503,12598.104};
+									name="border_arvn_1_182";
+									type="Empty";
+									id=650;
+									atlOffset=7.0455933;
+								};
+								class Item30
+								{
+									dataType="Marker";
+									position[]={8187.2163,171.54987,12755.187};
+									name="border_arvn_1_183";
+									type="Empty";
+									id=651;
+									atlOffset=7.0455933;
+								};
+								class Item31
+								{
+									dataType="Marker";
+									position[]={8174.3936,216.47916,12880.213};
+									name="border_arvn_1_184";
+									type="Empty";
+									id=652;
+									atlOffset=7.045578;
+								};
+								class Item32
+								{
+									dataType="Marker";
+									position[]={8180.8047,267.43195,13002.033};
+									name="border_arvn_1_185";
+									type="Empty";
+									id=653;
+									atlOffset=7.0455933;
+								};
+								class Item33
+								{
+									dataType="Marker";
+									position[]={8097.4551,235.00232,13159.116};
+									name="border_arvn_1_186";
+									type="Empty";
+									id=654;
+									atlOffset=7.045578;
+								};
+								class Item34
+								{
+									dataType="Marker";
+									position[]={8030.1323,226.88873,13146.294};
+									name="border_arvn_1_187";
+									type="Empty";
+									id=655;
+									atlOffset=7.0455933;
+								};
+								class Item35
+								{
+									dataType="Marker";
+									position[]={7924.3413,211.06387,13143.088};
+									name="border_arvn_1_188";
+									type="Empty";
+									id=656;
+									atlOffset=7.0455933;
+								};
+								class Item36
+								{
+									dataType="Marker";
+									position[]={7808.9326,189.60611,13203.998};
+									name="border_arvn_1_189";
+									type="Empty";
+									id=657;
+									atlOffset=7.0455933;
+								};
+								class Item37
+								{
+									dataType="Marker";
+									position[]={7751.228,188.78772,13306.584};
+									name="border_arvn_1_190";
+									type="Empty";
+									id=658;
+									atlOffset=6.3497009;
+								};
+								class Item38
+								{
+									dataType="Marker";
+									position[]={7757.6396,174.16034,13425.197};
+									name="border_arvn_1_191";
+									type="Empty";
+									id=659;
+									atlOffset=0.03276062;
+								};
+								class Item39
+								{
+									dataType="Marker";
+									position[]={7828.167,161.42538,13585.488};
+									name="border_arvn_1_192";
+									type="Empty";
+									id=660;
+									atlOffset=3.547699;
+								};
+								class Item40
+								{
+									dataType="Marker";
+									position[]={7905.1069,168.51666,13720.132};
+									name="border_arvn_1_193";
+									type="Empty";
+									id=661;
+									atlOffset=2.0557556;
+								};
+								class Item41
+								{
+									dataType="Marker";
+									position[]={7975.6343,180.77997,13851.57};
+									name="border_arvn_1_194";
+									type="Empty";
+									id=662;
+									atlOffset=7.0455933;
+								};
+								class Item42
+								{
+									dataType="Marker";
+									position[]={8023.7207,185.80878,13950.949};
+									name="border_arvn_1_195";
+									type="Empty";
+									id=663;
+									atlOffset=7.045578;
+								};
+								class Item43
+								{
+									dataType="Marker";
+									position[]={7978.8389,189.34897,14040.713};
+									name="border_arvn_1_196";
+									type="Empty";
+									id=664;
+									atlOffset=7.045578;
+								};
+								class Item44
+								{
+									dataType="Marker";
+									position[]={7898.6938,186.80603,14082.388};
+									name="border_arvn_1_197";
+									type="Empty";
+									id=665;
+									atlOffset=7.0455933;
+								};
+								class Item45
+								{
+									dataType="Marker";
+									position[]={7808.9316,171.40323,14130.477};
+									name="border_arvn_1_198";
+									type="Empty";
+									id=666;
+									atlOffset=7.045578;
+								};
+								class Item46
+								{
+									dataType="Marker";
+									position[]={7731.9927,124.85312,14175.356};
+									name="border_arvn_1_199";
+									type="Empty";
+									id=667;
+									atlOffset=7.0455856;
+								};
+								class Item47
+								{
+									dataType="Marker";
+									position[]={7658.2588,63.988308,14223.445};
+									name="border_arvn_1_200";
+									type="Empty";
+									id=668;
+									atlOffset=7.0455856;
+								};
+								class Item48
+								{
+									dataType="Marker";
+									position[]={7574.9082,23.375992,14265.119};
+									name="border_arvn_1_201";
+									type="Empty";
+									id=669;
+									atlOffset=7.0455856;
+								};
+								class Item49
+								{
+									dataType="Marker";
+									position[]={7507.5859,16.276581,14300.383};
+									name="border_arvn_1_202";
+									type="Empty";
+									id=670;
+									atlOffset=7.0455847;
+								};
+								class Item50
+								{
+									dataType="Marker";
+									position[]={7443.4712,14.985171,14338.853};
+									name="border_arvn_1_203";
+									type="Empty";
+									id=671;
+									atlOffset=7.0455856;
+								};
+								class Item51
+								{
+									dataType="Marker";
+									position[]={7356.9141,5.9171433,14386.939};
+									name="border_arvn_1_204";
+									type="Empty";
+									id=672;
+									atlOffset=7.0455856;
+								};
+								class Item52
+								{
+									dataType="Marker";
+									position[]={7267.1509,6.8080173,14460.674};
+									name="border_arvn_1_205";
+									type="Empty";
+									id=673;
+									atlOffset=7.0455856;
+								};
+								class Item53
+								{
+									dataType="Marker";
+									position[]={7170.9771,0.22894001,14540.818};
+									name="border_arvn_1_206";
+									type="Empty";
+									id=674;
+									atlOffset=7.0455856;
+								};
+								class Item54
+								{
+									dataType="Marker";
+									position[]={7116.479,-1.3185072,14595.317};
+									name="border_arvn_1_207";
+									type="Empty";
+									id=675;
+									atlOffset=7.0455856;
+								};
+								class Item55
+								{
+									dataType="Marker";
+									position[]={7039.54,0.68677235,14649.815};
+									name="border_arvn_1_208";
+									type="Empty";
+									id=676;
+									atlOffset=7.0455856;
+								};
+								class Item56
+								{
+									dataType="Marker";
+									position[]={6949.7764,-1.1434259,14685.08};
+									name="border_arvn_1_209";
+									type="Empty";
+									id=677;
+									atlOffset=7.0455856;
+								};
+								class Item57
+								{
+									dataType="Marker";
+									position[]={6872.8374,-2.1116714,14697.902};
+									name="border_arvn_1_210";
+									type="Empty";
+									id=678;
+									atlOffset=7.0455856;
+								};
+								class Item58
+								{
+									dataType="Marker";
+									position[]={6799.1045,-0.84876251,14688.285};
+									name="border_arvn_1_211";
+									type="Empty";
+									id=679;
+									atlOffset=7.0455856;
+								};
+								class Item59
+								{
+									dataType="Marker";
+									position[]={6744.6055,1.4050555,14643.404};
+									name="border_arvn_1_212";
+									type="Empty";
+									id=680;
+									atlOffset=7.0455856;
+								};
+								class Item60
+								{
+									dataType="Marker";
+									position[]={6690.1069,0.60600424,14611.346};
+									name="border_arvn_1_213";
+									type="Empty";
+									id=681;
+									atlOffset=7.0455856;
+								};
+								class Item61
+								{
+									dataType="Marker";
+									position[]={6625.9912,0.81558561,14640.197};
+									name="border_arvn_1_214";
+									type="Empty";
+									id=682;
+									atlOffset=7.0455856;
+								};
+								class Item62
+								{
+									dataType="Marker";
+									position[]={6587.5215,0.85524368,14755.607};
+									name="border_arvn_1_215";
+									type="Empty";
+									id=683;
+									atlOffset=7.0455856;
+								};
+								class Item63
+								{
+									dataType="Marker";
+									position[]={6597.1392,-4.2133322,14896.662};
+									name="border_arvn_1_216";
+									type="Empty";
+									id=684;
+									atlOffset=7.0455856;
+								};
+								class Item64
+								{
+									dataType="Marker";
+									position[]={6439.8403,10.648238,14848.36};
+									name="border_arvn_1_217";
+									type="Empty";
+									id=685;
+									atlOffset=19.851627;
+								};
+								class Item65
+								{
+									dataType="Marker";
+									position[]={6247.6479,7.0455861,14833.052};
+									name="border_arvn_1_218";
+									type="Empty";
+									id=686;
+									atlOffset=12.351797;
+								};
+								class Item66
+								{
+									dataType="Marker";
+									position[]={6004.936,7.0455837,14849.614};
+									name="border_arvn_1_219";
+									type="Empty";
+									id=687;
+									atlOffset=15.377006;
+								};
+								class Item67
+								{
+									dataType="Marker";
+									position[]={5859.147,7.0455866,14958.137};
+									name="border_arvn_1_220";
+									type="Empty";
+									id=688;
+									atlOffset=16.457245;
+								};
+								class Item68
+								{
+									dataType="Marker";
+									position[]={5650.8828,7.0455856,14944.681};
+									name="border_arvn_1_221";
+									type="Empty";
+									id=689;
+									atlOffset=15.415109;
+								};
+								class Item69
+								{
+									dataType="Marker";
+									position[]={5546.8511,101.52039,15110.793};
+									name="border_arvn_1_222";
+									type="Empty";
+									id=690;
+									atlOffset=119.17931;
+								};
+								class Item70
+								{
+									dataType="Marker";
+									position[]={8663.4395,2.595,10093.982};
+									name="border_arvn_1_0";
+									type="Empty";
+									id=693;
+									atlOffset=21.679102;
+								};
+								class Item71
+								{
+									dataType="Marker";
+									position[]={5562.2344,110.80334,15189.579};
+									name="border_arvn_1_223";
+									type="Empty";
+									id=695;
+									atlOffset=117.96513;
+								};
+								class Item72
+								{
+									dataType="Marker";
+									position[]={5582.1294,108.8577,15248.719};
+									name="border_arvn_1_224";
+									type="Empty";
+									id=696;
+									atlOffset=116.16769;
+								};
+								class Item73
+								{
+									dataType="Marker";
+									position[]={5602.7451,109.183,15273.519};
+									name="border_arvn_1_225";
+									type="Empty";
+									id=697;
+									atlOffset=116.2287;
+								};
+							};
+							id=467;
+							atlOffset=89.126144;
+						};
+					};
+					id=691;
+					atlOffset=67.574142;
+				};
+			};
+			id=101;
+			atlOffset=-132.11687;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11252.92,70.16703,14294.727};
+						angles[]={0,3.1382473,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=699;
+					type="vn_b_men_sog_22";
+					atlOffset=7.6293945e-006;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=698;
+			atlOffset=7.6293945e-006;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={19168.371,7.6293945e-006,652.2998};
+			name="flag_arvn";
+			type="vn_flag_arvn";
+			id=700;
+			atlOffset=98.920029;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={720.65997,0,652.29999};
+			name="flag_cambodia";
+			type="vn_flag_cam01";
+			id=701;
+			atlOffset=24.556396;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={853.22498,106.44,19999.908};
+			name="flag_laos";
+			type="vn_flag_lao";
+			id=702;
+			atlOffset=-128.28394;
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={19999.928,0,19999.908};
+			name="flag_pavn";
+			type="vn_flag_pavn";
+			id=703;
+			atlOffset=107.21989;
+		};
+	};
+};
