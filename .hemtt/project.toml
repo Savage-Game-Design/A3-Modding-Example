@@ -1,5 +1,6 @@
 name = "SOG: Prairie Fire - Custom Faction Example"
-prefix = "vn_cfe"
+mainprefix = "vn"
+prefix = "cfe"
 author = "Savage Games Design"
 
 [files]
@@ -12,3 +13,11 @@ exclude = ["*.psd", "*.png", "*.tga", "*.hpp"]
 
 [version]
 path = "addons/core_c/script_version.hpp" # Default
+
+[hemtt.launch]
+workshop = [
+    "2369477168", # ADT
+]
+dlc = [
+    "S.O.G. Prairie Fire",
+]
