@@ -1,3 +1,4 @@
+#include "script_version.hpp"
 
 class CfgPatches {
     class vn_cfe_core_c {
@@ -5,6 +6,7 @@ class CfgPatches {
         requiredAddons[] = {};
         units[] = {};
         weapons[] = {};
+        version = VERSION_STR;
     };
 };
 

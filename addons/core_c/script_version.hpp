@@ -1,0 +1,6 @@
+#define MAJOR 0
+#define MINOR 0
+#define PATCH 1
+
+#define VERSION MAJOR.MINOR.PATCH
+#define VERSION_STR #VERSION

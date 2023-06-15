@@ -1,0 +1,14 @@
+name = "SOG: Prairie Fire - Custom Faction Example"
+prefix = "vn_cfe"
+author = "Savage Games Design"
+
+[files]
+include = [
+    "LICENSE",
+    "README.md",
+]
+exclude = ["*.psd", "*.png", "*.tga", "*.hpp"]
+
+
+[version]
+path = "addons/core_c/script_version.hpp" # Default

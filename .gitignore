@@ -8,6 +8,7 @@ releases/*
 hemtt
 hemtt.exe
 .hemtt/local
+.hemttout/
 
 # Bikey
 *.biprivatekey

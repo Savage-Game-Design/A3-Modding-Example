@@ -5,7 +5,7 @@ class vn_boat_06_turret_base: vn_boat_05_base {
             class Values: Values {
                 class sog;
                 class nato;
-            }
+            };
         };
         class vn_flag_raise;
         class vn_lights;

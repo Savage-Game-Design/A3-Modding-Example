@@ -6,7 +6,7 @@ This repositry contains sample addon with custom factions based on SOG: Prairie 
 
 ### Requirements
 
-- [HEMTT](https://github.com/synixebrett/HEMTT) binary placed in project root or globally installed
+- [HEMTT](https://brettmayson.github.io/HEMTT/) binary placed in project root or globally installed
   - `hemtt` (Linux) or `hemtt.exe` (Windows) or `setup.exe` (Windows global install)
 
 ### Procedure
@@ -14,8 +14,8 @@ This repositry contains sample addon with custom factions based on SOG: Prairie 
 _Replace `hemtt` with `hemtt.exe` on Windows._
 
 - Open terminal (Linux) or command line (Windows)
-- Run `$ hemtt build` to create a development build
-- Run `$ hemtt build --release` to create a release build (add `-f` to overwrite already built release)
+- Run `$ hemtt dev` to create a development build
+- Run `$ hemtt release` to create a release build
 - Run `$ hemtt clean` to clean build files
 
 **Windows Helpers:**
