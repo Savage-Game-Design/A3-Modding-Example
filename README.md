@@ -17,7 +17,7 @@ _Replace `hemtt` with `hemtt.exe` on Windows._
 - Run `$ hemtt dev` to create a development build
 - Run `$ hemtt release` to create a release build
 - Run `$ hemtt clean` to clean build files
-- Run `$ hemtt launch` to run the them with the development build of the mod
+- Run `$ hemtt launch` to run the game with the development build of the mod
 
 **Windows Helpers:**
 - Double-click `build.bat` to create a development build
