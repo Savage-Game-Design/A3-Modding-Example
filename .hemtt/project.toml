@@ -10,7 +10,6 @@ include = [
 ]
 exclude = ["*.psd", "*.png", "*.tga", "*.hpp"]
 
-
 [version]
 path = "addons/core_c/script_version.hpp" # Default
 
