@@ -1,7 +1,7 @@
 name = "SOG: Prairie Fire - Custom Faction Example"
 mainprefix = "vn"
 prefix = "cfe"
-author = "Savage Games Design"
+author = "Savage Game Design"
 
 [files]
 include = [

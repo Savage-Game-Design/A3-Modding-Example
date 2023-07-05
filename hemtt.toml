@@ -1,6 +1,6 @@
 name = "SOG: Prairie Fire - Custom Faction Example"
 prefix = "vn_cfe"
-author = "Savage Games Design"
+author = "Savage Game Design"
 files = [
     "LICENSE",
     "README.md",
